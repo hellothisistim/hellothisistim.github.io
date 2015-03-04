@@ -56,7 +56,16 @@ table {
 /* -------------------------------------------------------------------
                                                 Type      
 */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic);
 
+
+
+/*
+Usage:
+font-family: 'Roboto Slab', serif;
+font-family: 'Old Standard TT', serif;
+*/
 
 
 /* -------------------------------------------------------------------
@@ -83,34 +92,28 @@ a:visited {
 a:hover {
     color: rgb(255, 133, 31);
 }
-header, main {
-    margin-left: 64px;
-    width: 1052px;
-    float: left;
-}
 
 
 /* -------------------------------------------------------------------
                                                 Header       
 */
-/*header {
-    margin-top: 48px;
-    font-style: italic;
-}
-header a {
-    text-decoration: none; 
+header {
+    font-family: 'Old Standard TT', serif;
 }
 header img {
-    float: left;
+    width: 38px;
+    height: 50px;
+    margin-top: 3px;
 }
 
 header > h1 {
-    margin-left: 40px;
-    margin-top: 55px;
-    float: left;
+    font-family: 'Roboto Slab', serif;
+    outline: 1px solid green;
     display: inline;
-    font-family: rokkittregular, Palatino, serif;
-    font-style: normal;
+}
+
+header a {
+    text-decoration: none; 
 }
 header > p {
     margin-left: 0.33em;
@@ -120,7 +123,7 @@ header > p {
     text-transform: lowercase;
 }
 section#contact {
-    margin-top: 55px;
+    font-style: italic;
     display: inline;
     text-align: right;
     float: right;
@@ -156,31 +159,19 @@ nav a {
                                                 Projects       
 */
 
-/*
+
 section#projects {
-    margin-left: 116px;
-    margin-top: 44px;
-    /* Make two columns */
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
 }
 section#projects section {
-    margin-bottom: 64px;
-    width: 448px;
-    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
-    page-break-inside: avoid; /* Firefox */
-    break-inside: avoid; /* IE 10+ */
+    width: 240px;
 }
-section#projects h2 {
-    margin-top: 0px;
-}
+
 #projects img, iframe {
     vertical-align: text-bottom;
+    max-width: 100%;
+    outline: 1px solid red;
 }
+/*
 section#projects p.subhead {
     font-size: 16px;
     line-height: 22px;
@@ -278,7 +269,7 @@ footer li {
 */
 
 
-a.skip, h1.skip, h2.skip, h3.skip, .hiddenText {
+a.textOnly {
     position: absolute;
     text-indent: -9999px;
     text-align: left;
