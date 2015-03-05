@@ -93,45 +93,49 @@ a:hover {
     color: rgb(255, 133, 31);
 }
 
+/* Hide main section headers */
+nav, #intro > h2 {
+    position: absolute;
+    text-indent: -9999px;
+    text-align: left;    
+}
 
 /* -------------------------------------------------------------------
                                                 Header       
 */
 header {
     font-family: 'Old Standard TT', serif;
+    line-height: 1.3em;
+    margin-top: 3px;
 }
 header img {
     width: 38px;
     height: 50px;
-    margin-top: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header > h1 {
     font-family: 'Roboto Slab', serif;
-    outline: 1px solid green;
-    display: inline;
+    text-align: center;
 }
-
+header > p {
+    text-transform: lowercase;
+    text-align: center;
+    font-style: italic;
+}
 header a {
     text-decoration: none; 
 }
-header > p {
-    margin-left: 0.33em;
-    margin-top: 55px;
-    float: left;
-    display: inline;
-    text-transform: lowercase;
-}
-section#contact {
+#contact {
+    font-size: 0.75em;
+    line-height: 1.3em;
+    margin-top: 1em;
     font-style: italic;
-    display: inline;
-    text-align: right;
-    float: right;
 }
-section#contact li {
-    display: inline;
-    margin-left: 0.25em;
-
+#contact li {
+    text-align: center;
 }
 */
 /* -------------------------------------------------------------------
@@ -154,6 +158,16 @@ nav a {
 }
 */
 
+/* -------------------------------------------------------------------
+                                                Intro       
+*/
+#intro {
+    margin-top: 1em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px dotted red;
+}
 
 /* -------------------------------------------------------------------
                                                 Projects       
@@ -269,7 +283,7 @@ footer li {
 */
 
 
-a.textOnly {
+.textOnly {
     position: absolute;
     text-indent: -9999px;
     text-align: left;
