@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700|Old+Standard+TT:400,400italic);
+
 /* Desktop CSS 
    Tim Bowman
    GIT 414
@@ -53,16 +55,9 @@ table {
 /* CSS reset ends here. */
 
 
-/* -------------------------------------------------------------------
-                                                Type      
-*/
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
-@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic);
-
-
 
 /*
-Usage:
+Type usage:
 font-family: 'Roboto Slab', serif;
 font-family: 'Old Standard TT', serif;
 */
@@ -74,8 +69,7 @@ font-family: 'Old Standard TT', serif;
 */
 body {
     color: rgb(134, 134, 135);
-    background-color: white;
-    outline: 1px solid red;
+    background-color: rgb(0, 179, 197);
 }
 a:link {
     color: rgb(134, 134, 135)
@@ -87,14 +81,16 @@ a:active {
     color: rgb(0, 179, 197);
 }
 a:visited {
-    color: rgb(134, 134, 135)
+    color: rgb(134, 134, 135);
 }
 a:hover {
     color: rgb(255, 133, 31);
 }
 
 /* Hide main section headers */
-nav, #intro > h2 {
+nav > h2, 
+#intro > h2,
+#projects > h2 {
     position: absolute;
     text-indent: -9999px;
     text-align: left;    
@@ -106,7 +102,9 @@ nav, #intro > h2 {
 header {
     font-family: 'Old Standard TT', serif;
     line-height: 1.3em;
-    margin-top: 3px;
+    background: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 header img {
     width: 38px;
@@ -137,47 +135,83 @@ header a {
 #contact li {
     text-align: center;
 }
-*/
+
 /* -------------------------------------------------------------------
                                                 Navigation       
 */
-
-/*nav {
-    width: 76px;
-    margin-top: 44px;
+nav {
+    font-family: 'Old Standard TT', serif;
     font-style: italic;
     text-transform: lowercase;
-    float: left;
-    position: fixed;
+    font-size: 0.75em;
+    line-height: 1.3em;
+    background: rgb(244, 244, 244);
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+}
+nav ul {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 nav li {
-    text-align: right;
+    display: inline;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
 }
 nav a {
     text-decoration: none;
 }
-*/
+nav a:link {
+    color: rgb(134, 134, 135);
+}
+nav a:focus {
+    color: rgb(255, 133, 31);
+}
+nav a:active {
+    color: rgb(0, 179, 197);
+}
+nav a:visited {
+    color: rgb(134, 134, 135);
+}
+nav a:hover {
+    color: rgb(255, 133, 31);
+}
+
 
 /* -------------------------------------------------------------------
                                                 Intro       
 */
 #intro {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.2em;
+    color: white;
+    background: rgb(0, 179, 197);
     margin-top: 1em;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 1px dotted red;
+    margin-bottom: 1em;
+    padding-top: 0.6em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
-
+#intro p {
+    text-align: center;
+}
 /* -------------------------------------------------------------------
                                                 Projects       
 */
-
-
-section#projects {
+#projects {
+    outline: 1px dotted green;
+    background: white;
+    padding-left-top: 1em;
+    padding-bottom: 1em;
 }
-section#projects section {
+#projects section {
     width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
 }
 
 #projects img, iframe {
@@ -209,11 +243,8 @@ section#projects p.tools {
 
                                                 Social Media       
 */
-/*section#socialMedia {
-    margin-left: 1142px;
-    margin-top: 192px;
-    float: left;
-    position: fixed;
+section#socialMedia {
+    float: right;
 }
 section#socialMedia img {
     vertical-align: bottom;
@@ -239,7 +270,7 @@ section#socialMedia a:visited {
 section#socialMedia a:hover {
      background: rgb(255, 133, 31);
 }
-*/
+
 /* -------------------------------------------------------------------
 
                                                 Footer       
