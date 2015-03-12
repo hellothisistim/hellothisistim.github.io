@@ -90,7 +90,10 @@ a:hover {
 /* Hide main section headers */
 nav > h2, 
 #intro > h2,
-#projects > h2 {
+#projects > h2,
+#about > h2,
+#socialMedia > h2,
+#legal >h2 {
     position: absolute;
     text-indent: -9999px;
     text-align: left;    
@@ -104,7 +107,7 @@ header {
     line-height: 1.3em;
     background: white;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 header img {
     width: 38px;
@@ -129,7 +132,7 @@ header a {
 #contact {
     font-size: 0.75em;
     line-height: 1.3em;
-    margin-top: 1em;
+    margin-top: 0.5em;
     font-style: italic;
 }
 #contact li {
@@ -188,12 +191,7 @@ nav a:hover {
     line-height: 1.2em;
     color: white;
     background: rgb(0, 179, 197);
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding-top: 0.6em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
 }
 #intro p {
     text-align: center;
@@ -202,23 +200,33 @@ nav a:hover {
                                                 Projects       
 */
 #projects {
-    outline: 1px dotted green;
     background: white;
-    padding-left-top: 1em;
+    padding-top: 1em;
     padding-bottom: 1em;
+}
+#projects h2 {
+    /* Individual project headers */
+    font-family: 'Roboto Slab', serif;
+    color: rgb(0, 179, 197);
+    margin-top: 0.125em;
 }
 #projects section {
     width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 1.2em;
 }
 
 #projects img, iframe {
     vertical-align: text-bottom;
     max-width: 100%;
-    outline: 1px solid red;
+    height: auto;
 }
+#projects a {
+    text-decoration: none; 
+}
+
+
 /*
 section#projects p.subhead {
     font-size: 16px;
@@ -240,34 +248,58 @@ section#projects p.tools {
 */
 
 /* -------------------------------------------------------------------
+                                                About       
+*/
+#about {
+    font-family: 'Old Standard TT', serif;
+    font-size: 0.7em;
+    line-height: 1.3em;
+    background: white;
+    padding-bottom: 2em;
+}
+#about img {
+    vertical-align: text-bottom;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+#about p {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-indent: 2em;
+}
+
+
+/* -------------------------------------------------------------------
 
                                                 Social Media       
 */
-section#socialMedia {
-    float: right;
+#socialMedia {
 }
-section#socialMedia img {
-    vertical-align: bottom;
+#socialMedia img {
+    vertical-align: middle;
 }
-section#socialMedia li {
-    margin-bottom: 8px;
+#socialMedia ul {
+    padding: 1em;
 }
-section#socialMedia a {
+#socialMedia li {
     display: inline-block;
 }
-section#socialMedia a:link {
+#socialMedia a {
+}
+#socialMedia a:link {
     background: rgb(0, 179, 197)
 }
-section#socialMedia a:focus {
+#socialMedia a:focus {
     background: rgb(255, 133, 31);
 }
-section#socialMedia a:active {
+#socialMedia a:active {
     background: rgb(134, 134, 135);
 }
-section#socialMedia a:visited {
+#socialMedia a:visited {
     background: rgb(0, 179, 197)
 }
-section#socialMedia a:hover {
+#socialMedia a:hover {
      background: rgb(255, 133, 31);
 }
 
@@ -277,26 +309,14 @@ section#socialMedia a:hover {
 */
 
 
-/*footer {
-    margin-top: 88px;
-    padding-top: 16px;
-    padding-bottom: 96px;
-    background: rgb(0, 179, 197);
+footer {
     color: white;
-    font-size: 12px;
-    float: left;
-    width: 100%; 
+    font-family: 'Old Standard TT', serif;
+    padding: 1em;
 }
 #legal {
-    margin-left: 180px;
-}
-footer ul {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-footer li {
-    display: inline;
-    margin-right: 6px;
+    font-size: 0.55em;
+    line-height: 1.3em;
 }
 #legal a {
     color: white;
@@ -311,7 +331,7 @@ footer li {
     color: white;
     outline: 1px solid red;
 }
-*/
+
 
 
 .textOnly {
