@@ -70,6 +70,8 @@ font-family: 'Old Standard TT', serif;
 body {
     color: rgb(134, 134, 135);
     background-color: rgb(0, 179, 197);
+    font-family: 'Old Standard TT', serif;
+    line-height: 1.3em;
 }
 a:link {
     color: rgb(134, 134, 135)
@@ -192,6 +194,7 @@ nav a:hover {
     color: white;
     background: rgb(0, 179, 197);
     padding: 1em;
+    padding-bottom: 1.5em;
 }
 #intro p {
     text-align: center;
@@ -201,7 +204,7 @@ nav a:hover {
 */
 #projects {
     background: white;
-    padding-top: 1em;
+    padding-top: 0.25em;
     padding-bottom: 1em;
 }
 #projects h2 {
@@ -217,7 +220,7 @@ nav a:hover {
     margin-top: 1.2em;
 }
 
-#projects img, iframe {
+#projects img {
     vertical-align: text-bottom;
     max-width: 100%;
     height: auto;
@@ -248,10 +251,53 @@ section#projects p.tools {
 */
 
 /* -------------------------------------------------------------------
+                                                Project (singlular!)       
+*/
+#project {
+    background: white;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+#project img, iframe, video {
+    vertical-align: text-bottom;
+    max-width: 100%;
+    height: auto;
+}
+
+#project h2 {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.2em;
+    color: rgb(0, 179, 197);
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#project p, #project ul {
+    font-size: 0.9em;
+    line-height: 1.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#project p.subhead {
+    font-size: 0.7em;
+    margin-left: 1.43em;
+    margin-right: 1.43em;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+#project p:not(.subhead), #project ul {
+    text-indent: 1.25em;
+}
+#project ul {
+    margin-top: 0.5em;
+}
+
+/* -------------------------------------------------------------------
                                                 About       
 */
 #about {
-    font-family: 'Old Standard TT', serif;
+    /*font-family: 'Old Standard TT', serif;*/
     font-size: 0.7em;
     line-height: 1.3em;
     background: white;
@@ -312,7 +358,10 @@ section#projects p.tools {
 footer {
     color: white;
     font-family: 'Old Standard TT', serif;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 5em;
 }
 #legal {
     font-size: 0.55em;
