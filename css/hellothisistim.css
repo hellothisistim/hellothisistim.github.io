@@ -69,9 +69,10 @@ font-family: 'Old Standard TT', serif;
 */
 body {
     color: rgb(134, 134, 135);
-    background-color: rgb(0, 179, 197);
+    background-color: white;
     font-family: 'Old Standard TT', serif;
     line-height: 1.3em;
+    min-width: 320px;
 }
 a:link {
     color: rgb(134, 134, 135)
@@ -136,6 +137,9 @@ header a {
     line-height: 1.3em;
     margin-top: 0.5em;
     font-style: italic;
+}
+#contact ul {
+    text-align: center;
 }
 #contact li {
     text-align: center;
@@ -224,6 +228,10 @@ nav a:hover {
     vertical-align: text-bottom;
     max-width: 100%;
     height: auto;
+    margin-bottom: 0.15em;
+}
+#projects img:last-of-type {
+    margin-bottom: 0;
 }
 #projects a {
     text-decoration: none; 
@@ -262,8 +270,11 @@ section#projects p.tools {
     vertical-align: text-bottom;
     max-width: 100%;
     height: auto;
+    margin-bottom: 0.15em;
 }
-
+#project img:last-of-type, iframe:last-of-type, video:last-of-type {
+    margin-bottom: 0;
+}
 #project h2 {
     font-family: 'Roboto Slab', serif;
     line-height: 1.2em;
@@ -310,6 +321,7 @@ section#projects p.tools {
     margin-bottom: 1em;
 }
 #about p {
+    text-align: justify;
     margin-left: 1em;
     margin-right: 1em;
     text-indent: 2em;
@@ -321,6 +333,7 @@ section#projects p.tools {
                                                 Social Media       
 */
 #socialMedia {
+    background-color: rgb(0, 179, 197);
 }
 #socialMedia img {
     vertical-align: middle;
@@ -357,6 +370,7 @@ section#projects p.tools {
 
 footer {
     color: white;
+    background-color: rgb(0, 179, 197);
     font-family: 'Old Standard TT', serif;
     padding-left: 1em;
     padding-right: 1em;
@@ -390,3 +404,89 @@ footer {
 }
 
 
+
+/* -------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                Narrow screens       
+*/
+@media only screen and (min-width: 720px) {
+
+body {
+    font-size: 120%;
+    border: 1px dotted red;
+    text-align: left;
+    }
+header {
+    float: left;
+    clear: both;
+    padding: 0;
+}
+header img {
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 64px;
+    top: 48px;
+}
+header > h1 {
+  margin-left: 180px;
+  margin-top: 98px;
+  float: left;
+  display: inline;
+}
+header > p {
+  margin-left: 0.33em;
+  margin-top: 98px;
+  float: left;
+  display: inline;
+  text-transform: lowercase;
+}
+#contact {
+    text-align: left;
+    font-size: initial;
+    line-height: 1.7em;
+    margin-left: 180px;
+}
+#contact ul {
+    text-align: left;
+}
+#contact li {
+    text-align: left;
+    display: inline;
+}
+
+nav {
+    width: 76px;
+    float: left;
+    position: fixed;
+    top: 201px;
+    left: 64px;
+    background-color: white;
+}
+nav ul {
+    text-align: right;
+    width: auto;
+    margin: 0;
+}
+
+section#intro {
+    float: left;
+    clear: both;
+    width: 421px;
+    margin-left: 180px;
+    margin-top: 52px;
+    margin-bottom: 1em;
+    padding: 16px;
+}
+
+section#projects section {
+    margin-bottom: 64px;
+    width: 448px;
+}
+
+#socialMedia {
+    position: absolute;
+    top: 201px;
+    left: 654px;
+    background-color: white;
+}
