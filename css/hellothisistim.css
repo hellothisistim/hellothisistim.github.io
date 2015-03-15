@@ -89,6 +89,10 @@ a:visited {
 a:hover {
     color: rgb(255, 133, 31);
 }
+h2, h3 {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(0, 179, 197);
+}
 
 /* Hide main section headers */
 nav > h2, 
@@ -214,8 +218,8 @@ nav a:hover {
 #projects h2 {
     /* Individual project headers */
     font-family: 'Roboto Slab', serif;
-    color: rgb(0, 179, 197);
     margin-top: 0.125em;
+    color: inherit;
 }
 #projects section {
     width: 240px;
@@ -235,28 +239,12 @@ nav a:hover {
 }
 #projects a {
     text-decoration: none; 
+    color: rgb(0, 179, 197);
+}
+#projects a:hover {
+    color: rgb(255, 133, 31);
 }
 
-
-/*
-section#projects p.subhead {
-    font-size: 16px;
-    line-height: 22px;
-    font-style: italic;
-    margin-bottom: 8px;
-}
-section#projects p:not(.subhead) {
-    text-indent: 1.5em;
-}
-section#projects ul {
-    margin-top: 1em;
-    margin-left: 1.5em;
-}
-section#projects p.tools {
-    margin-top: 1em;
-    text-indent: 0;
-}
-*/
 
 /* -------------------------------------------------------------------
                                                 Project (singlular!)       
@@ -268,13 +256,13 @@ section#projects p.tools {
 }
 #project img, iframe, video {
     vertical-align: text-bottom;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin-bottom: 0.15em;
 }
-#project img:last-of-type, iframe:last-of-type, video:last-of-type {
+/*#project img:last-of-type, iframe:last-of-type, video:last-of-type {
     margin-bottom: 0;
-}
+}*/
 #project h2 {
     font-family: 'Roboto Slab', serif;
     line-height: 1.2em;
@@ -314,9 +302,13 @@ section#projects p.tools {
     background: white;
     padding-bottom: 2em;
 }
+#about h2, #about h3 {
+    margin: 1em;
+    margin-bottom: 0.5em;
+}
 #about img {
     vertical-align: text-bottom;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin-bottom: 1em;
 }
@@ -325,6 +317,10 @@ section#projects p.tools {
     margin-left: 1em;
     margin-right: 1em;
     text-indent: 2em;
+}
+#about p.toolbox {
+    text-indent: 0;
+    margin-bottom: 1em;
 }
 
 
@@ -344,22 +340,79 @@ section#projects p.tools {
 #socialMedia li {
     display: inline-block;
 }
-#socialMedia a {
+/* Using Scott Kellum method for replaceing text with images
+https://css-tricks.com/examples/ImageReplacement/#kellum */
+#socialMedia a[href*="twitter"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/twitter-bg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
-#socialMedia a:link {
-    background: rgb(0, 179, 197)
+#socialMedia a[href*="twitter"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/twitter-bg.png") no-repeat;
 }
-#socialMedia a:focus {
-    background: rgb(255, 133, 31);
+#socialMedia a[href*="instagram"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/instagram-bg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
-#socialMedia a:active {
-    background: rgb(134, 134, 135);
+#socialMedia a[href*="instagram"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/instagram-bg.png") no-repeat;
 }
-#socialMedia a:visited {
-    background: rgb(0, 179, 197)
+#socialMedia a[href*="imdb"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/imdb-bg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
-#socialMedia a:hover {
-     background: rgb(255, 133, 31);
+#socialMedia a[href*="tumblr"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/tumblr-bg.png") no-repeat;
+}
+#socialMedia a[href*="tumblr"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/tumblr-bg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="imdb"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/imdb-bg.png") no-repeat;
+}
+#socialMedia a[href*="linkedin"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/linkedin-bg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="linkedin"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/linkedin-bg.png") no-repeat;
+}
+#socialMedia a[href*="github"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/github-bg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="github"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/github-bg.png") no-repeat;
 }
 
 /* -------------------------------------------------------------------
@@ -404,16 +457,28 @@ footer {
 }
 
 
+/* -------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                Wide mobile       
+*/
+@media only screen and (min-width: 448px) {
+
+#about {
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
 
 /* -------------------------------------------------------------------
 ----------------------------------------------------------------------
-                                                Narrow screens       
+                                                Narrow desktop       
 */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 736px) {
 
 body {
     font-size: 120%;
-    border: 1px dotted red;
     text-align: left;
     }
 header {
@@ -462,6 +527,7 @@ nav {
     top: 201px;
     left: 64px;
     background-color: white;
+    padding: 0;
 }
 nav ul {
     text-align: right;
@@ -472,21 +538,219 @@ nav ul {
 section#intro {
     float: left;
     clear: both;
-    width: 421px;
+    width: 416px;
     margin-left: 180px;
     margin-top: 52px;
     margin-bottom: 1em;
     padding: 16px;
 }
 
-section#projects section {
+main {
+    float: left;
+    clear: both;
+    margin-left: 180px;
     margin-bottom: 64px;
+    padding: 0;
     width: 448px;
 }
 
+section#projects {
+    padding: 0;
+}
+section#projects section {
+    margin: 0;
+    margin-bottom: 1em;
+    width: 448px;
+}
+
+section#project {
+    margin-top: 52px;
+    padding: 0;
+}
+#project iframe {
+    height: 320px;
+}
+section#project h2,
+section#project p,
+section#project p.subhead {
+    margin-left: 0;
+    margin-right: 0;
+    width: 448px;
+}
+section#about {
+    width: 448px;
+    font-size: initial;
+    margin: 0;
+}
+section#about p {
+    margin: 0;
+}
+section#about h2,
+section#about h3 {
+    margin-left: 0;
+}
+
+
 #socialMedia {
-    position: absolute;
+    position: fixed;
     top: 201px;
-    left: 654px;
+    left: 668px;
     background-color: white;
+    padding: 0;
+}
+#socialMedia ul {
+    padding: 0;
+}
+#socialMedia li {
+    display: inherit;
+    margin-bottom: 0.5em;
+}
+#socialMedia a[href*="twitter"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/twitter-fg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="twitter"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/twitter-fg.png") no-repeat;
+}
+#socialMedia a[href*="instagram"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/instagram-fg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="instagram"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/instagram-fg.png") no-repeat;
+}
+#socialMedia a[href*="imdb"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/imdb-fg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="tumblr"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/tumblr-fg.png") no-repeat;
+}
+#socialMedia a[href*="tumblr"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/tumblr-fg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="imdb"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/imdb-fg.png") no-repeat;
+}
+#socialMedia a[href*="linkedin"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/linkedin-fg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="linkedin"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/linkedin-fg.png") no-repeat;
+}
+#socialMedia a[href*="github"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/github-fg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="github"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/github-fg.png") no-repeat;
+}
+
+footer {
+    float: left;
+    width: 100%;
+}
+}
+
+/* -------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                Medium desktop       
+*/
+@media only screen and (min-width: 1220px) {
+
+section#intro {
+    width: 904px;
+}
+section#intro p {
+    text-align: left;
+}
+
+main {
+    width: 936px;
+}
+section#projects {
+    /* Make two columns */
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+section#projects section {
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+    padding-top: 1px; /* Fixes weird column artifact where top pixel of section appears at bottom of previous column. */
+}
+
+#project {
+    max-width: 936px;
+}
+#project iframe {
+    height: 640px;
+}
+#socialMedia {
+    left: 1156px;
+}
+
+}
+
+
+/* -------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                Large desktop       
+*/
+@media only screen and (min-width: 1708px) {
+
+main {
+    width: 1424px;
+}
+
+section#projects {
+    /* Make three columns */
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+#socialMedia {
+    left: 1644px;
+}
+
 }
