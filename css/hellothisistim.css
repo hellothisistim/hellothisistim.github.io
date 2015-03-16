@@ -532,6 +532,7 @@ nav {
     left: 64px;
     background-color: white;
     padding: 0;
+    font-size: initial;
 }
 nav ul {
     text-align: right;
