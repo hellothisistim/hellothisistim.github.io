@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+{% include nav.html %}
+
+<a id="content"></a>
+
+<section id="intro">
+	<h2>Intro</h2>
+	<p>Tim Bowman is a compositor, trouble-shooter, and image-maker. He brings his calm competence to work on feature films, television, and your next production.</p>
+</section>
+
+<main>
+<section id="projects">
+	<h2>Projects</h2>
+
+	{% assign projects = site.projects | sort:"priority" %}
+	{% for project in projects %}
+		<section class="FOO BAR">
+			<a href={{ project.url }}>
+			{% for image in project.gallery-images %}
+				{% assign src = site.url | append: image.src %}
+			    <img src="{{ src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{image.alt }}">
+			{% endfor %}
+			<h2>{{ project.title }}</h2>
+			</a>
+		</section>
+	{% endfor %}
+</section>
+
+<section id="about">
+	<h2>About</h2>
+	<img src="./gfx/tim1.jpg" width="448" height="336" alt="">
+	<p>Tim loves images. He has worked on them around the world, for feature films and television shows such as The Great Gatsby, True Detective, The Wolverine, Gravity, The Fault in Our Stars, and Boardwalk Empire.</p> 
+	<p>His specialty is making highly complex tasks manageable in order to meet both deadlines and expectations.</p>
+	<h3>Software</h3>
+	<p class="toolbox">Nuke, Photoshop, Illustrator, After Effects, Shotgun, Mocha, Qube!, SynthEyes, Shake, Flame, Maya, Lightwave, Modo, Silo, Rush</p>
+	<h3>Programming Languages</h3>
+	<p class="toolbox">Python, TCL, Processing/Arduino, JavaScript, HTML, CSS</p>
+	<h3>Platforms</h3>
+	<p class="toolbox">Mac OS, Linux, Windows</p>
+</section>
+
+</main>
+
+{% include social-media.html %}
+
+{% include footer.html %}
+
+<div class="textOnly"><a href="#" title="Go back to the top">You have reached the bottom of the page, click here to go back to the top</a></div>
+
+{% include analytics.html %}
+
+</body>
+</html>

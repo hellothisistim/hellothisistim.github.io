@@ -1,4 +1,6 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
 
-_src/Adobe After Effects Auto-Save/siemens auto-save 1.aep
-
-_src/siemens.aep Logs/AE 3-13-15 4-43-48 PM EDT.txt
+/vid/projects/TimBowman_CompReel_Feat.mp4
