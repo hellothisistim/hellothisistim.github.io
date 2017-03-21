@@ -5,6 +5,7 @@ category: projects
 priority: 1
 tags: reel film
 schemaType: CreativeWork  # itemtype from schema.org
+permalink: /:collection/:title/
 
 gallery-images:
  - src: /img/projects/theRoad-gasStationStill-gallery.jpg

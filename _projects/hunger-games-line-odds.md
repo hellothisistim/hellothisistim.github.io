@@ -4,6 +4,7 @@ layout: project
 category: projects
 priority: 6
 schema-type: CreativeWork  # itemtype from schema.org
+permalink: /:collection/:title/
 
 images:
  - src: /img/projects/hungerGames-lineOdds-wide-large.jpg

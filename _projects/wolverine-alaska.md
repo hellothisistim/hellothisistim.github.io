@@ -1,8 +1,12 @@
 ---
 title: "The Wolverine: Alaska DMP"
-category: projects
 layout: project
+category: projects
 priority: 3
+schemaType: CreativeWork  # itemtype from schema.org
+permalink: /:collection/:title/
+
+
 images:
  - src: /img/projects/wolverine-alaskadmp-after.jpg
    width: 1400

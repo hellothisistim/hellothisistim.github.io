@@ -4,6 +4,7 @@ layout: project
 category: projects
 priority: 8
 schemaType: CreativeWork  # itemtype from schema.org
+permalink: /:collection/:title/
 
 gallery-images:
  - src: /img/projects/cinefex-theRoad-gallery.jpg

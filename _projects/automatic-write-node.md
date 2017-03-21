@@ -4,6 +4,7 @@ layout: project
 category: projects
 priority: 5
 schemaType: CreativeWork  # itemtype from schema.org
+permalink: /:collection/:title/
 
 images:
   - src: /img/projects/autowrite.png

@@ -5,6 +5,7 @@ category: projects
 priority: 2
 tags: reel mograph
 schemaType: CreativeWork  # itemtype from schema.org
+permalink: /:collection/:title/
 
 gallery-images:
  - src: /img/projects/reel-designAnimation-still-gallery.jpg
