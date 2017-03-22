@@ -219,6 +219,7 @@ nav a:hover {
     /* Individual project headers */
     font-family: 'Roboto Slab', serif;
     margin-top: 0.125em;
+    margin-bottom: 1em;
     color: inherit;
 }
 #projects section {
@@ -564,7 +565,6 @@ section#projects {
 }
 section#projects section {
     margin: 0;
-    margin-bottom: 1em;
     width: 448px;
 }
 
