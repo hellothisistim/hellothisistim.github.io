@@ -440,6 +440,7 @@ footer {
     content: "";
     display: table;
     clear: both;
+    width: 100%;
 }
 #legal {
     font-size: 0.55em;
@@ -689,6 +690,7 @@ section#about h3 {
 
 footer {
     margin-left: 180px;
+    width: initial;
 }
 }
 
