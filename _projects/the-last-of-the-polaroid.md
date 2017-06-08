@@ -7,24 +7,24 @@ schemaType: CreativeWork  # itemtype from schema.org
 permalink: /:collection/:title/
 
 images:
-  - src: /img/projects/theLastofThePolaroid-cover.jpg
+  - src: /img/projects/theLastOfThePolaroid-cover.jpg
     width: 1024
     height: 914
     alt: "The front cover of The Last of the Polaroid"
-  - src: /img/projects/theLastofThePolaroid-plate1.jpg
+  - src: /img/projects/theLastOfThePolaroid-plate1.jpg
     width: 1024
     height: 962
     alt: "Plate 1 from The Last of the Polaroid"
-  - src: /img/projects/theLastofThePolaroid-plates18-19.jpg
+  - src: /img/projects/theLastOfThePolaroid-plates18-19.jpg
     width: 1024
     height: 698
     alt: "Plates 18 and 19 from The Last of the Polaroid"
-  - src: /img/projects/theLastofThePolaroid-plates42-43.jpg
+  - src: /img/projects/theLastOfThePolaroid-plates42-43.jpg
     width: 1024
     height: 632
     alt: "Plates 42 and 43 from The Last of the Polaroid"
 gallery-images:
-  - src: /img/projects/theLastofThePolaroid-gallery.jpg
+  - src: /img/projects/theLastOfThePolaroid-gallery.jpg
     width: 448
     height: 252
     alt: ""
