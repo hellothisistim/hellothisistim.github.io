@@ -2,7 +2,7 @@
 title: "Demo Reel: Film Compositing"
 layout: project
 category: projects
-priority: 1
+priority: 2
 tags: reel film
 schemaType: CreativeWork  # itemtype from schema.org
 permalink: /:collection/:title/
