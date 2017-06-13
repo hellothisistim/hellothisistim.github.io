@@ -12,55 +12,85 @@ orange: rgb(255, 133, 31)
 blue: rgb(0, 179, 197)
 grey: rgb(134, 134, 135)
 */
-
-/* -------------------------------------------------------------------
-                                                CSS reset      
-*/
-/* Big thanks to Eric Meyer for the CSS reset. */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-align: left;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-/* CSS reset ends here. */
-
-
-
 /*
 Type usage:
 font-family: 'Roboto Slab', serif;
 font-family: 'Old Standard TT', serif;
 */
+
+
+/* -------------------------------------------------------------------
+                                                CSS foundation      
+*/
+/* Thank you to Jayden Seric for the CSS foundation and explanation. */
+/* http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    font: 16px/1 serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+main,
+li {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+}
+strong {
+    font-weight: bold;
+}
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+}
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+/*:focus {
+    outline: 0;
+}*/
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+
+
 
 
 /* -------------------------------------------------------------------
@@ -71,7 +101,8 @@ body {
     color: rgb(134, 134, 135);
     background-color: white;
     font-family: 'Old Standard TT', serif;
-    line-height: 1.3em;
+    font-size: 1.3em;
+    line-height: 1.5em;
     min-width: 320px;
 }
 a:link {
@@ -110,9 +141,9 @@ nav > h2,
                                                 Header       
 */
 header {
-    font-family: 'Old Standard TT', serif;
+/*    font-family: 'Old Standard TT', serif;
     line-height: 1.3em;
-    background: white;
+*/    background: white;
     padding-top: 1em;
     padding-bottom: 0.5em;
 }
@@ -144,8 +175,8 @@ header a {
 }
 #contact {
     font-size: 0.75em;
-    line-height: 1.3em;
-    margin-top: 0.5em;
+    line-height: 1.5em;
+    /*margin-top: 0.5em;*/
     font-style: italic;
 }
 #contact ul {
@@ -163,7 +194,7 @@ nav {
     font-style: italic;
     text-transform: lowercase;
     font-size: 0.75em;
-    line-height: 1.3em;
+    line-height: 1.4em;
     background: rgb(244, 244, 244);
     padding-top: 0.3em;
     padding-bottom: 0.4em;
@@ -224,9 +255,11 @@ nav a:hover {
 #projects h2 {
     /* Individual project headers */
     font-family: 'Roboto Slab', serif;
-    margin-top: 0.125em;
+    font-size: 0.75em;
+    line-height: 1em;
+/*    margin-top: 0.125em;
     margin-bottom: 1em;
-    color: inherit;
+*/    color: inherit;
 }
 #projects section {
     width: 240px;
@@ -267,9 +300,6 @@ nav a:hover {
     height: auto;
     margin-bottom: 0.15em;
 }
-/*#project img:last-of-type, iframe:last-of-type, video:last-of-type {
-    margin-bottom: 0;
-}*/
 #project h2 {
     font-family: 'Roboto Slab', serif;
     line-height: 1.2em;
@@ -278,24 +308,32 @@ nav a:hover {
     margin-left: 1em;
     margin-right: 1em;
 }
+#project div {
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
 #project p, #project ul {
     font-size: 0.9em;
     line-height: 1.3em;
-    margin-left: 1em;
-    margin-right: 1em;
+    /*margin-left: 1em;
+    margin-right: 1em;*/
 }
 #project p.subhead {
-    font-size: 0.7em;
-    margin-left: 1.43em;
-    margin-right: 1.43em;
+    font-size: 0.5em;
+    /*margin-left: 1.43em;
+    margin-right: 1.43em;*/
     font-style: italic;
-    margin-bottom: 8px;
+    margin-bottom: 1.2em;
+    margin-top: 0.5em;
 }
-
+#project p:first-of-type:not(.subhead) {
+    margin-top: 0.75em;
+}
 #project p:not(.subhead), #project ul {
     text-indent: 1.25em;
 }
-#project ul {
+#project ul, ol {
     margin-top: 0.5em;
 }
 
@@ -436,14 +474,9 @@ footer {
     padding-right: 1em;
     padding-top: 0.25em;
     padding-bottom: 5em;
-    /* clearfix: https://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best */
-    content: "";
-    display: table;
-    clear: both;
-    width: 100%;
 }
 #legal {
-    font-size: 0.55em;
+    font-size: 0.75em;
     line-height: 1.3em;
 }
 #legal a {
@@ -519,7 +552,7 @@ header > p {
 #contact {
     text-align: left;
     font-size: initial;
-    line-height: 0.5em;
+    /*line-height: 0.5em;*/
     margin-left: 180px;
 }
 #contact ul {
@@ -572,10 +605,18 @@ section#projects section {
     margin: 0;
     width: 448px;
 }
+section#projects h2,h3 {
+    font-size: 1em;
+    margin-top: 0.125em;
+    margin-bottom: 1em;
+}
 
 section#project {
     margin-top: 52px;
     padding: 0;
+}
+#project div {
+    margin: 0;
 }
 #project iframe {
     height: 320px;
@@ -586,6 +627,9 @@ section#project p.subhead {
     margin-left: 0;
     margin-right: 0;
     width: 448px;
+}
+section#project p.subhead {
+    font-size: 0.75em;
 }
 section#about {
     width: 448px;
@@ -691,6 +735,11 @@ section#about h3 {
 footer {
     margin-left: 180px;
     width: initial;
+    /* clearfix: https://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best */
+    content: "";
+    display: table;
+    clear: both;
+    width: 412px;
 }
 }
 
