@@ -24,15 +24,15 @@ gallery-images:
  - src: /img/projects/hungerGames-lineOdds-wide-gallery.jpg
    width: 448
    height: 191
-   alt: ""
+   alt: "Hunger Games - wide"
  - src: /img/projects/hungerGames-lineOdds-med-gallery.jpg
    width: 448
    height: 191
-   alt: ""
+   alt: "Hunger Games - medium"
  - src: /img/projects/hungerGames-lineOdds-cu-gallery.jpg
    width: 448
    height: 191
-   alt: ""
+   alt: "Hunger Games - closeup"
 
 ---
 

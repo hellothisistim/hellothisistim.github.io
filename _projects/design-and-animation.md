@@ -11,7 +11,7 @@ gallery-images:
  - src: /img/projects/reel-designAnimation-still-gallery.jpg
    width: 448
    height: 252
-   alt: ""
+   alt: "Design and Animation Reel"
 
 videos:
  - width: 1280

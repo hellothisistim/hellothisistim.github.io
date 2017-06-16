@@ -10,21 +10,21 @@ gallery-images:
   - src: /img/projects/siemens-somatom-gallery.jpg
     width: 448
     height: 252
-    alt: ""
+    alt: "Siemens Somatom"
 
 images:
  - src: /img/projects/siemens_still_3.jpg
    width: 960
    height: 540
-   alt: ""
+   alt: "Siemens Somatom video still #3"
  - src: /img/projects/siemens_still_7.jpg
    width: 960
    height: 540
-   alt: ""
+   alt: "Siemens Somatom video still #7"
  - src: /img/projects/siemens_still_5.jpg
    width: 960
    height: 540
-   alt: ""
+   alt: "Siemens Somatom video still #5"
 
 youtube-vids:
  - width: 1280

@@ -10,7 +10,7 @@ gallery-images:
   - src: /img/projects/paFilm-gallery.jpg
     width: 448
     height: 252
-    alt: ""
+    alt: "PA Film"
 
 youtube-vids:
  - src: https://www.youtube-nocookie.com/embed/NcBuLQ44t0w

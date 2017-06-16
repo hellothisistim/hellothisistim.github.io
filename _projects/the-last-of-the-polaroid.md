@@ -27,7 +27,7 @@ gallery-images:
   - src: /img/projects/theLastOfThePolaroid-gallery.jpg
     width: 448
     height: 252
-    alt: ""
+    alt: "The Last of the Polaroid"
 ---
 
 <p class="subhead">7"x7" softcover book, 50 pages, 45 color plates.</p>

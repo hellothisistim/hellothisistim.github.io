@@ -10,7 +10,7 @@ gallery-images:
  - src: /img/projects/cannondale-endTagAnim-gallery.gif
    width: 448
    height: 252
-   alt: ""
+   alt: "Cannondale"
    
 youtube-vids:
  - src: https://www.youtube-nocookie.com/embed/-VECyxXaEMo?rel=0

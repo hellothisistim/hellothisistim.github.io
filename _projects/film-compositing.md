@@ -11,7 +11,7 @@ gallery-images:
  - src: /img/projects/theRoad-gasStationStill-gallery.jpg
    width: 448
    height: 189
-   alt: ""
+   alt: "Film Compositing Reel"
 
 videos:
  - width: 864
