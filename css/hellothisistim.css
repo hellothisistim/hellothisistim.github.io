@@ -532,6 +532,7 @@ header {
     clear: both;
     padding: 0;
     padding-top: 98px;
+    margin-bottom: 52px;
 }
 header img {
     width: auto;
@@ -585,7 +586,6 @@ section#intro {
     clear: both;
     width: 416px;
     margin-left: 180px;
-    margin-top: 52px;
     margin-bottom: 1em;
     padding: 16px;
 }
