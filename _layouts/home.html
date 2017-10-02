@@ -19,16 +19,12 @@
 
 <main>
 <section id="gallery">
-	<h2>Projects</h2>
+	<!-- <h2>Projects</h2> -->
 	{% for post in site.categories.photograph %}
 		<section>
 			<!-- <h2>{{ post.title }}</h2> -->
 			<a href={{ post.url }}>
 			<img src={{ site.url }}/photographs/{{ post.photograph }} />
-			<!--{% for image in project.gallery-images %}
-				{% assign src = site.url | append: image.src %}
-			    <img src="{{ src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{image.alt }}">
-			{% endfor %}-->
 			</a>
 		</section>
 	{% endfor %}

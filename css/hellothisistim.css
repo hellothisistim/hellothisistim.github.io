@@ -500,6 +500,7 @@ footer {
     position: absolute;
     text-indent: -9999px;
     text-align: left;
+    white-space: nowrap;
 }
 
 
@@ -579,6 +580,9 @@ nav ul {
     text-align: right;
     width: auto;
     margin: 0;
+}
+nav ul li {
+    display: block;
 }
 
 section#intro {
