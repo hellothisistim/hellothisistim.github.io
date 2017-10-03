@@ -18,18 +18,13 @@
 
 
 <main>
-<section id="gallery">
-	<h2>Projects</h2>
-
-	{% assign projects = site.projects | sort:"priority" %}
-	{% for project in projects %}
-		<section class="FOO BAR">
-			<a href={{ project.url }}>
-			{% for image in project.gallery-images %}
-				{% assign src = site.url | append: image.src %}
-			    <img src="{{ src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{image.alt }}">
-			{% endfor %}
-			<h2>{{ project.title }}</h2>
+<section id="projects">
+	<!-- <h2>Projects</h2> -->
+	{% for post in site.categories.photograph %}
+		<section>
+			<!-- <h2>{{ post.title }}</h2> -->
+			<a href={{ post.url }}>
+			<img src={{ site.url }}/photographs/{{ post.photograph }} />
 			</a>
 		</section>
 	{% endfor %}

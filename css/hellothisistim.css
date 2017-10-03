@@ -266,7 +266,7 @@ nav a:hover {
     width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.2em;
+    margin-bottom: 1.2em;
 }
 
 #projects img {
@@ -317,6 +317,7 @@ nav a:hover {
 #project p, #project ul {
     font-size: 0.9em;
     line-height: 1.3em;
+    margin-bottom: 1em;
     /*margin-left: 1em;
     margin-right: 1em;*/
 }
@@ -331,7 +332,10 @@ nav a:hover {
 #project p:first-of-type:not(.subhead) {
     margin-top: 0.75em;
 }
-#project p:not(.subhead), #project ul {
+#project p:not(.subhead) {
+    /*text-indent: 1.25em;*/
+}
+##project ul {
     text-indent: 1.25em;
 }
 #project ul, ol {
@@ -500,6 +504,7 @@ footer {
     position: absolute;
     text-indent: -9999px;
     text-align: left;
+    white-space: nowrap;
 }
 
 
@@ -580,6 +585,9 @@ nav ul {
     width: auto;
     margin: 0;
 }
+nav ul li {
+    display: block;
+}
 
 section#intro {
     float: left;
@@ -603,7 +611,7 @@ section#projects {
     padding: 0;
 }
 section#projects section {
-    margin: 0;
+    /*margin: 0;*/
     width: 448px;
 }
 section#projects h2,h3 {
@@ -613,7 +621,7 @@ section#projects h2,h3 {
 }
 
 section#project {
-    margin-top: 52px;
+    /*margin-top: 52px;*/
     padding: 0;
 }
 #project div {

@@ -2,8 +2,9 @@
 layout: post
 title:  "Characterizing Instax Mini Film"
 date:   2017-06-13 9:00:00 -0400
-categories: imaging film
-published: false
+categories: 
+ - imaging 
+ - film
 ---
 
 Characterize Instax Mini instant film in order to apply the Instax response to digital photographs.
