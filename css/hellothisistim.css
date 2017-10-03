@@ -266,7 +266,7 @@ nav a:hover {
     width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.2em;
+    margin-bottom: 1.2em;
 }
 
 #projects img {
@@ -607,7 +607,7 @@ section#projects {
     padding: 0;
 }
 section#projects section {
-    margin: 0;
+    /*margin: 0;*/
     width: 448px;
 }
 section#projects h2,h3 {
