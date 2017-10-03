@@ -317,6 +317,7 @@ nav a:hover {
 #project p, #project ul {
     font-size: 0.9em;
     line-height: 1.3em;
+    margin-bottom: 1em;
     /*margin-left: 1em;
     margin-right: 1em;*/
 }
@@ -331,7 +332,10 @@ nav a:hover {
 #project p:first-of-type:not(.subhead) {
     margin-top: 0.75em;
 }
-#project p:not(.subhead), #project ul {
+#project p:not(.subhead) {
+    /*text-indent: 1.25em;*/
+}
+##project ul {
     text-indent: 1.25em;
 }
 #project ul, ol {
@@ -617,7 +621,7 @@ section#projects h2,h3 {
 }
 
 section#project {
-    margin-top: 52px;
+    /*margin-top: 52px;*/
     padding: 0;
 }
 #project div {

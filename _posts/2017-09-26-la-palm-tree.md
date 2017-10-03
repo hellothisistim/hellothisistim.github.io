@@ -6,5 +6,5 @@ categories:
  - photograph
  - silver gelatin
 ---
-LA Palm Tree, 2004?. Print 2010?
+LA Palm Tree, 2004. Print made in 2010.
 Silver gelatin print.
