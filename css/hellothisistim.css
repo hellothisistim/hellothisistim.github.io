@@ -335,7 +335,7 @@ nav a:hover {
 #project p:not(.subhead) {
     /*text-indent: 1.25em;*/
 }
-##project ul {
+#project ul {
     text-indent: 1.25em;
 }
 #project ul, ol {
