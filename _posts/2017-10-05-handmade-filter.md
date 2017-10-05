@@ -1,6 +1,6 @@
 ---
 layout: photograph
-title: "Gallery Test"
+title: "Handmade Filter"
 #photograph: "photoHere.jpg"
 gallery: 
  - filters/filters01_mg_1598.jpg
