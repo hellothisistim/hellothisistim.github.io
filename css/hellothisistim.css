@@ -392,15 +392,6 @@ nav a:hover {
 }
 /* Using Scott Kellum method for replaceing text with images
 https://css-tricks.com/examples/ImageReplacement/#kellum */
-#socialMedia a[href*="feed.xml"] {
-    display: block;
-    height: 32px;
-    width: 32px;
-    background: rgb(0, 179, 197) url("../gfx/social/rss-bg.png") no-repeat ;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-}
 #socialMedia a[href*="twitter"] {
     display: block;
     height: 32px;
@@ -472,6 +463,19 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
 }
 #socialMedia a[href*="github"]:hover {
      background: rgb(255, 133, 31) url("../gfx/social/github-bg.png") no-repeat;
+}
+/* These go after GitHub because the github selector also grabs github.io. Bernk. */
+#socialMedia a[href*="feed.xml"] {
+    display: block;
+    height: 32px;
+    width: 32px;
+    background: rgb(0, 179, 197) url("../gfx/social/rss-bg.png") no-repeat ;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#socialMedia a[href*="feed.xml"]:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/rss-bg.png") no-repeat;
 }
 
 /* -------------------------------------------------------------------
