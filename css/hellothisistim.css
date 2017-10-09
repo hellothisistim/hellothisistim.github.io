@@ -392,7 +392,7 @@ nav a:hover {
 }
 /* Using Scott Kellum method for replaceing text with images
 https://css-tricks.com/examples/ImageReplacement/#kellum */
-#socialMedia a[href*="twitter"] {
+#socialMedia a#twitter {
     display: block;
     height: 32px;
     width: 32px;
@@ -401,10 +401,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="twitter"]:hover {
+#socialMedia a#twitter:hover {
      background: rgb(255, 133, 31) url("../gfx/social/twitter-bg.png") no-repeat;
 }
-#socialMedia a[href*="instagram"] {
+#socialMedia a#instagram {
     display: block;
     height: 32px;
     width: 32px;
@@ -413,10 +413,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="instagram"]:hover {
+#socialMedia a#instagram:hover {
      background: rgb(255, 133, 31) url("../gfx/social/instagram-bg.png") no-repeat;
 }
-#socialMedia a[href*="imdb"] {
+#socialMedia a#imdb {
     display: block;
     height: 32px;
     width: 32px;
@@ -425,10 +425,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="tumblr"]:hover {
-     background: rgb(255, 133, 31) url("../gfx/social/tumblr-bg.png") no-repeat;
+#socialMedia a#imdb:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/imdb-bg.png") no-repeat;
 }
-#socialMedia a[href*="tumblr"] {
+#socialMedia a#tumblr {
     display: block;
     height: 32px;
     width: 32px;
@@ -437,10 +437,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="imdb"]:hover {
-     background: rgb(255, 133, 31) url("../gfx/social/imdb-bg.png") no-repeat;
+#socialMedia a#tumblr:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/tumblr-bg.png") no-repeat;
 }
-#socialMedia a[href*="linkedin"] {
+#socialMedia a#linkedin {
     display: block;
     height: 32px;
     width: 32px;
@@ -449,10 +449,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="linkedin"]:hover {
+#socialMedia a#linkedin:hover {
      background: rgb(255, 133, 31) url("../gfx/social/linkedin-bg.png") no-repeat;
 }
-#socialMedia a[href*="github.com"] {
+#socialMedia a#github {
     display: block;
     height: 32px;
     width: 32px;
@@ -461,11 +461,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="github.com"]:hover {
+#socialMedia a#github:hover {
      background: rgb(255, 133, 31) url("../gfx/social/github-bg.png") no-repeat;
 }
-/* These go after GitHub because the github selector also grabs github.io. Bernk. */
-#socialMedia a[href*="feed.xml"] {
+#socialMedia a#rss {
     display: block;
     height: 32px;
     width: 32px;
@@ -474,7 +473,7 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="feed.xml"]:hover {
+#socialMedia a#rss:hover {
      background: rgb(255, 133, 31) url("../gfx/social/rss-bg.png") no-repeat;
 }
 
@@ -681,77 +680,48 @@ section#about h3 {
     display: inherit;
     margin-bottom: 0.5em;
 }
-#socialMedia a[href*="twitter"] {
-    display: block;
-    height: 32px;
-    width: 32px;
+/* These are set up in the mobile layout above. */
+#socialMedia a#twitter {
     background: rgb(0, 179, 197) url("../gfx/social/twitter-fg.png") no-repeat ;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
 }
-#socialMedia a[href*="twitter"]:hover {
+#socialMedia a#twitter:hover {
      background: rgb(255, 133, 31) url("../gfx/social/twitter-fg.png") no-repeat;
 }
-#socialMedia a[href*="instagram"] {
-    display: block;
-    height: 32px;
-    width: 32px;
+#socialMedia a#instagram {
     background: rgb(0, 179, 197) url("../gfx/social/instagram-fg.png") no-repeat ;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
 }
-#socialMedia a[href*="instagram"]:hover {
+#socialMedia a#instagram:hover {
      background: rgb(255, 133, 31) url("../gfx/social/instagram-fg.png") no-repeat;
 }
-#socialMedia a[href*="imdb"] {
-    display: block;
-    height: 32px;
-    width: 32px;
+#socialMedia a#imdb {
     background: rgb(0, 179, 197) url("../gfx/social/imdb-fg.png") no-repeat ;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
 }
-#socialMedia a[href*="tumblr"]:hover {
+#socialMedia a#tumblr:hover {
      background: rgb(255, 133, 31) url("../gfx/social/tumblr-fg.png") no-repeat;
 }
-#socialMedia a[href*="tumblr"] {
-    display: block;
-    height: 32px;
-    width: 32px;
+#socialMedia a#tumblr {
     background: rgb(0, 179, 197) url("../gfx/social/tumblr-fg.png") no-repeat ;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
 }
-#socialMedia a[href*="imdb"]:hover {
+#socialMedia a#imdb:hover {
      background: rgb(255, 133, 31) url("../gfx/social/imdb-fg.png") no-repeat;
 }
-#socialMedia a[href*="linkedin"] {
-    display: block;
-    height: 32px;
-    width: 32px;
+#socialMedia a#linkedin {
     background: rgb(0, 179, 197) url("../gfx/social/linkedin-fg.png") no-repeat ;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
 }
-#socialMedia a[href*="linkedin"]:hover {
+#socialMedia a#linkedin:hover {
      background: rgb(255, 133, 31) url("../gfx/social/linkedin-fg.png") no-repeat;
 }
-#socialMedia a[href*="github"] {
-    display: block;
-    height: 32px;
-    width: 32px;
+#socialMedia a#github {
     background: rgb(0, 179, 197) url("../gfx/social/github-fg.png") no-repeat ;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
 }
-#socialMedia a[href*="github"]:hover {
+#socialMedia a#github:hover {
      background: rgb(255, 133, 31) url("../gfx/social/github-fg.png") no-repeat;
+}
+#socialMedia a#rss {
+    background: rgb(0, 179, 197) url("../gfx/social/rss-fg.png") no-repeat ;
+}
+#socialMedia a#rss:hover {
+     background: rgb(255, 133, 31) url("../gfx/social/rss-fg.png") no-repeat;
 }
 
 footer {
