@@ -452,7 +452,7 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
 #socialMedia a[href*="linkedin"]:hover {
      background: rgb(255, 133, 31) url("../gfx/social/linkedin-bg.png") no-repeat;
 }
-#socialMedia a[href*="github"] {
+#socialMedia a[href*="github.com"] {
     display: block;
     height: 32px;
     width: 32px;
@@ -461,7 +461,7 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a[href*="github"]:hover {
+#socialMedia a[href*="github.com"]:hover {
      background: rgb(255, 133, 31) url("../gfx/social/github-bg.png") no-repeat;
 }
 /* These go after GitHub because the github selector also grabs github.io. Bernk. */
