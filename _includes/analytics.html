@@ -1,9 +1,15 @@
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60239872-2"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	if ( !window.location.href.includes("127.0.0.1:4000") ) {
+		console.log("analytics on");
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-  gtag('config', 'UA-60239872-2');
+		gtag('config', 'UA-60239872-2');
+	}
+	else {
+		console.log("analytics off");
+	}
 </script>
