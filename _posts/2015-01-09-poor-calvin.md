@@ -2,10 +2,11 @@
 layout: photograph
 title: "Poor Calvin"
 photograph: "MG_7863.jpg"
-categories: 
+tags: 
  - photograph
  - silver gelatin
  - lumen
+category: photograph
 ---
 Poor Calvin, 2015.
 Digital photograph.

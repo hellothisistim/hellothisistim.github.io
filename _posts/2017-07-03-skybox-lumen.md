@@ -5,9 +5,10 @@ gallery:
  - skyBox-lumen-2017-07-03-neg.jpg
  - skyBox-lumen-2017-07-03-pos.jpg
 
-categories: 
+tags: 
  - photograph
  - lumen print
+category: photograph
 ---
 Skybox Lumen, 3 July 2017. 
 Scanned lumen print, negative and inverted.

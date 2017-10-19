@@ -4,11 +4,12 @@ title: "Eclipse, 21 August 2017"
 gallery:
  - skybox-lumen_2017-08-21_work.jpg
  - skybox-lumen_2017-08-21_cu.jpg
-categories: 
+tags: 
  - photograph
  - lumen print
  - pinhole photography
  - eclipse
+category: photograph
 ---
 Eclipse, 21 August 2017.
 Scan of unfixed lumen print. 
