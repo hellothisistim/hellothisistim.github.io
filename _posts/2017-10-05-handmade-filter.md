@@ -17,7 +17,8 @@ gallery:
  - filters/filters12_mg_1530.jpg
  - filters/filters13_mg_1531.jpg
  - filters/filters14_mg_1540.jpg
-categories: 
+tags: 
  - photograph
+category: photograph
 ---
 Looking at the world through a handmade, multi-colored filter. 2017. Digital photographs.

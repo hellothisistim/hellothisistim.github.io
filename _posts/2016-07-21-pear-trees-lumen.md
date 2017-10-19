@@ -2,7 +2,10 @@
 layout: photograph
 title: "Pear Trees"
 photograph: "2016-06-lumen-treesM&D_pos.jpg"
-categories: photograph lumen
+tags: 
+ - photograph
+ - lumen
+category: photograph
 ---
 Pear Trees, 2016.
 Lumen print on Agfa Portriga. 8x10 inches.

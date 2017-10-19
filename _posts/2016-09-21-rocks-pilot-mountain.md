@@ -2,8 +2,9 @@
 layout: photograph
 title: "Rocks, Pilot Mountain"
 photograph: "rocks-pilotMountain.jpg"
-categories: 
+tags: 
  - photograph
+category: photograph
 ---
 Rocks, Pilot Mountain, 2016.
 Digital photograph.
