@@ -7,6 +7,7 @@ tags:
  - silver gelatin
  - edition
  - for sale
+category: photograph
 ---
 Jade, 2017.
 
