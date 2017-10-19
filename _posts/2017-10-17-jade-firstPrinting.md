@@ -2,7 +2,7 @@
 layout: photograph
 title: "Jade, 2017. First printing."
 photograph: "jade-firstPrinting-image.jpg"
-categories: 
+tags: 
  - photograph
  - silver gelatin
  - edition
