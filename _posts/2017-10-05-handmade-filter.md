@@ -20,6 +20,6 @@ gallery:
 tags: 
  - photograph
 category: photograph
-publish: false
+published: false
 ---
 Looking at the world through a handmade, multi-colored filter. 2017. Digital photographs.
