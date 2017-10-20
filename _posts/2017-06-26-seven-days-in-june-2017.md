@@ -7,6 +7,7 @@ tags:
  - silver gelatin
  - lumen
 category: photograph
+published: false
 ---
 7 Days in June, 2017.
 Lumen print on Kodak Polycontrast III RC.
