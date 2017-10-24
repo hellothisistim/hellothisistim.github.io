@@ -106,7 +106,7 @@ body {
     min-width: 320px;
 }
 a:link {
-    color: rgb(134, 134, 135)
+    color: rgb(134, 134, 135);
 }
 a:focus {
     color: rgb(255, 133, 31);
@@ -340,6 +340,9 @@ nav a:hover {
 }
 #project ul, ol {
     margin-top: 0.5em;
+}
+#project p a {
+    text-decoration: underline;
 }
 
 /* -------------------------------------------------------------------
