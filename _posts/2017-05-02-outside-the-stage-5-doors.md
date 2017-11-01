@@ -8,6 +8,6 @@ tags:
  - paper negative
 category: photograph
 ---
-Outside the Stage 6 Doors, 2017.
+Outside the Stage 5 Doors, 2017.
 
 Silver gelatin print. 4" x 5"
