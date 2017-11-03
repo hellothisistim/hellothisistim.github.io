@@ -11,7 +11,13 @@ There's no shortage of info on how to get "that film look" with digital, so [exi
 
 Still with me? Good! Here's the plan: We're going to create our own film look based on [Instax film](http://www.fujifilm.com/products/instant_photo/films/instax_mini/) and read Yedlin's excellent article On Color Science.
 
+
+
+Here's cinematographer Steve Yedlin, writing about his Film Prep Demo, where he compares finematic images shot on film with digital footage that has been prepared to look like film:
+
 > So, the question is: can we as filmmakers identify, isolate and understand any of these underlying attributes so that we can manipulate them meaningfully for ourselves, or are we forever relegated to the status of shoppers; browsing for pre-packaged solutions and then wearing the badge of brand allegiance to the one we select.
+
+
 
 
 
