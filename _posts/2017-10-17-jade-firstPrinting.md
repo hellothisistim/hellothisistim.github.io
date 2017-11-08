@@ -19,5 +19,7 @@ $50.
 I have been working with paper negatives for a year now, struggling to find the balance between control and discovery. I like the technique because it's tactile and the idea of control becomes less certain the farther you dig into it. In the good ones, the subject and the surface of the photograph find an uneasy truce.
 
 ![Full-sheet view of Jade, 2017.]({{ "/photographs/jade-firstPrinting-recto.jpg" }})
+Recto
 
 ![Verso view showing edition information and signature of Jade, 2017.]({{ "/photographs/jade-firstPrinting-verso.jpg" }})
+Verso
