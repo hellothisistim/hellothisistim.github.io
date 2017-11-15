@@ -7,59 +7,39 @@ tags:
 category: blog
 ---
 
-There's no shortage of info on how to get "that film look" with digital, so [exit now](https://www.google.com/search?q=photo+filter+film+look) if you only have time for a plugin recommendation or a 5-step tutorial. This is going to be a deep dive and I don't believe in easy answers.
+![Instax Mini exposure wedge]( {{ "/photographs/blog/2017/instax-wedge-horiz.jpg" | absolute_url }})
 
-Still with me? Good! Here's the plan: We're going to create our own film look based on [Instax film](http://www.fujifilm.com/products/instant_photo/films/instax_mini/) and read Yedlin's excellent article On Color Science.
+Here's the plan: We're going make our own technique for getting “that film-look” from digital cameras. Specifically, we’ll be trying to recreate the look of [Instax film](http://www.fujifilm.com/products/instant_photo/films/instax_mini/).
 
+We're going to do it by following in cinematographer Steve Yedlin's footsteps. Maybe you've heard of him? He shot Brick, Looper, and the new Star Wars movie that's coming out soon. Here’s a [brief introduction](https://storify.com/tvaziri/steve-yedlin) (in tweets, natch) to him and what he’s up to with film modeling.
 
+Yedlin doesn't believe in "the mystery of film." He believes film has specific artifacts that can be isolated, modeled, and simulated. According to him, as long as you find all the artifacts and model them accurately, you can then recreate the "look" of film using digital cameras.
 
-Here's cinematographer Steve Yedlin, writing about his Film Prep Demo, where he compares finematic images shot on film with digital footage that has been prepared to look like film:
+Yedlin's [Display Prep Demo](http://yedlin.net/DisplayPrepDemo/) compares cinematic images shot on film with digital footage that he modified to look like film using the techniques he's developed. Have a look at the Demo. See if you can pick which clips are film and which are digital. I sure can't. He claims that nobody has been able to pick which is film and which is digital any better than if they'd just guessed.
 
-> So, the question is: can we as filmmakers identify, isolate and understand any of these underlying attributes so that we can manipulate them meaningfully for ourselves, or are we forever relegated to the status of shoppers; browsing for pre-packaged solutions and then wearing the badge of brand allegiance to the one we select.
+He's done a bunch of writing on [his web site](http://yedlin.net/OnColorScience/) and on Twitter ([@steveyedlin](https://twitter.com/steveyedlin)) about film and color. There's a lot of detail that that I'm glossing over here. Here's a quote from him about why this matters ([Via Twitter](https://twitter.com/steveyedlin/status/686314296679219201?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fstorify.com%2Ftvaziri%2Fsteve-yedlin))
 
-
-
-
-
-I recently saw the [Display Prep Demo](http://yedlin.net/DisplayPrepDemo/) by cinematographer [Steve Yedlin](http://yedlin.net) ([@steveyedlin](https://twitter.com/steveyedlin)) and read some of the smart stuff on his website about 
-
-This investigation was triggered by [some writing](http://www.yedlin.net/160105_edit.html) that cinematographer [Steve Yedlin](http://yedlin.net) did recently, supporting his [Display Prep Demo](http://yedlin.net/DisplayPrepDemo/). Yedlin doesn't believe in "the mystery of film." He believes film has specific artifacts that can be isolated, modeled, and simulated. According to him, as long as you find all the artifacts and model them accurately, you can then recreate the "look" of film using digital cameras. Yedlin has been working to identify, model, and simulate those artifacts. The 
-
-) is his proof. Have a peek for yourself and see if you can tell what's film and what's digital prepped to look like film. I'm convinced he nailed it. He claims that nobody has been able to pick which is film and which is digital any better than if they'd just guessed.
-
-My reference target is a [ColorChecker Classic](http://xritephoto.com/colorchecker-classic) chart from X-Rite. I'm using it because I already own one, and also because X-Rite and others have published data about how the chart should be represented digitally, so we know how it should look on the screen in an ideal situation.
-
-The camera is an [Instant Automat](https://www.kickstarter.com/projects/lomography/the-lomoinstant-automat-camera) that shoots Instax Mini film.
+> The reason I got interested in color science is not that I don't like film. It's that [I] love film and don't want [its] tradition to vanish.
 
 
+For this project, we will focus on the color response of film. When Yedlin was developing this part of his display prep technique, he used an Arri SkyPanel to display lots and lots of different colors to two cameras, one film-based and one with a digital sensor. This allowed him to build a [LUT](http://nofilmschool.com/2011/05/what-is-a-look-up-table-lut-anyway) for applying the film response to the digital capture.
+
+[SkyPanels are expensive.](https://www.bhphotovideo.com/c/product/1139001-REG/arri_l0_0007063_skypanel_s60_c_led_softlight.html)
+
+But I do happen to have a ColorChecker that we can use. We only get 16 color patches with it, and they're not evenly spaced through the color spectrum. We won’t be able to make a LUT directly, but we can at least start our investigation about what happens to color at different exposures.
+
+I'm using a [Lomo Instant Automat](https://www.kickstarter.com/projects/lomography/the-lomoinstant-automat-camera) to make the exposures. The Automat's onboard meter assumes that the scene in front of the camera is average because, well, that's how onboard meters work. So made my scene as average as possible. I took my 18% grey card to the paint store, had them color match it, and painted a piece of plywood. This gives me a really big grey card that the meter can see and set a consistently correct exposure. I'll tape my ColorChecker and a few other references in the middle of it, make sure the lighting is even from top to bottom, and we're all set.
+
+![The ColorChecker and other charts on an 18% grey-painted board]( {{ "/photographs/blog/2017/instax-fancySetup.jpg" | absolute_url }} )
+
+The camera sees a big grey card, so it will handle the normal exposure with no problem, but how do I get it to do the overexposed and underexposed steps? I cut 3" squares from [Rosco](http://us.rosco.com/en) half-stop, full-stop, and two-stop neutral density gels. To get underexposure, I held the gel over the lens to cut the amount of light getting to the film. For overexposure, I held them over the meter's photocell opening. I layered two gels to get to three and four stops. This gave me an exposure wedge that goes from 3 stop underexposed to four stops overexposed. 
+
+![Instax Mini exposure wedge]( {{ "/photographs/blog/2017/instax-wedge.jpg" | absolute_url }} )
+
+![Instax Mini exposure wedge, animated]( {{ "/photographs/blog/2017/instax-wedge-anim.gif" | absolute_url }} )
+
+Next time we'll be doing some hard-core numerical analysis on these, but we can already see some interesting artifacts as we compare the exposures. As we might expect, we see the greatest saturation around normal exposure and it reduces as we go towards underexposure and overexposure. Yellows and oranges (a.k.a. skin-tone hues) seem to be doing pretty well in both underexposure and in overexposure. This makes sense in a film tailor-made for selfies. Greens drop out after 1 stop of underexposure and shift toward orange in overexposure. The darkest colors, blues and purples, are taking a beating in underexposure. 
+
+These non-linearities that are built into Instax film would be hard to identify in normal photos, but our ColorChecker provides a useful reference for identifying them. Next we'll dig into the analysis. We'll use some tools in Nuke to help us visualize these results and also plot saturation graphs for the primary and secondary colors.
 
 
-
-
-
-Characterize Instax Mini instant film in order to apply the Instax response to digital photographs.
-
-using X-Rite ColorChecker and Lomo Instant Automat
-
-At the end of this process, I will be able to apply "the Instax look" to digital photographs.
-
-Steps:
-
-1. Build 18% grey board with ColorChecker in the middle. This is the reference.
-2. Photograph the reference with the Lomo Instant Automat at camera's automatic exposure, then also at -2 stops, -1 stop, +1 stop, and +2 stops.
-3. Let the Instax film develop fully, at least 3 days. [http://www.thepicta.com/media/1430476698750850214_1434391894]
-4. Scan the instant film with the ColorChecker.
-5. Color-correct the scan to match the ColorChecker patches to known sRGB values.[http://www.poynton.com/notes/color/GretagMacbeth-ColorChecker.html]
-6. Plot the Instax color response in 3D (Nuke).
-7. Create lookup that takes ColorChecker values and maps them to the Instax data. (Is it even possible to do this step? Nuke ColorMatch?)
-8. Apply the lookup to digital photographs.
-
-
-
-Now that we have RGB values as xyz coordinates, from 0,0,0 to 1,1,1 I prefer to have the neutrals run dowmn the z axis, so I rotate -45 degrees around y, then 35.2645 degreen around x (found by experimentation, I didn't do the math), and then scale by 1/1.732 to normalize back into the 0-1 range.
-
-
-How have I messed this up?
-# I didn't wait three days like ??? suggests for the Instax colors to stabilize.
-# I cleaned up the big dust & scratches, but left all the little ones. That means my dark values are going to be slightly inaccurate.
-# I don't know the spectrum output of the LED lights I used to shoot the Instax. It probably isn't full spectrum. That probably gives me some color-rendering inaccuracies.
