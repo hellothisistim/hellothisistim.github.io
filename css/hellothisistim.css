@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700|Old+Standard+TT:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700|Old+Standard+TT:400,400i|Open+Sans:400,400i);
 
 /* Desktop CSS 
    Tim Bowman
@@ -16,6 +16,7 @@ grey: rgb(134, 134, 135)
 Type usage:
 font-family: 'Roboto Slab', serif;
 font-family: 'Old Standard TT', serif;
+font-family: 'Open Sans', sans-serif;
 */
 
 
@@ -100,8 +101,8 @@ img {
 body {
     color: rgb(134, 134, 135);
     background-color: white;
-    font-family: 'Old Standard TT', serif;
-    font-size: 1.3em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
     line-height: 1.5em;
     min-width: 320px;
 }
@@ -142,9 +143,8 @@ nav > h2,
                                                 Header       
 */
 header {
-/*    font-family: 'Old Standard TT', serif;
-    line-height: 1.3em;
-*/    background: white;
+    font-family: 'Old Standard TT', serif;
+    background: white;
     padding-top: 1em;
     padding-bottom: 0.5em;
 }
@@ -316,7 +316,7 @@ nav a:hover {
 }
 #project p, #project ul {
     font-size: 0.9em;
-    line-height: 1.3em;
+    /*line-height: 1.3em;*/
     margin-bottom: 1em;
     /*margin-left: 1em;
     margin-right: 1em;*/
@@ -353,9 +353,8 @@ nav a:hover {
                                                 About       
 */
 #about {
-    /*font-family: 'Old Standard TT', serif;*/
-    font-size: 0.7em;
-    line-height: 1.3em;
+    font-family: 'Open Sans', sans-serif;
+    /*line-height: 1.3em;*/
     background: white;
     padding-bottom: 2em;
 }
@@ -370,9 +369,10 @@ nav a:hover {
     margin-bottom: 1em;
 }
 #about p {
-    text-align: justify;
+    /*text-align: justify;*/
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 1em;
     text-indent: 2em;
 }
 #about p.toolbox {
@@ -493,7 +493,7 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
 footer {
     color: white;
     background-color: rgb(0, 179, 197);
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.25em;
