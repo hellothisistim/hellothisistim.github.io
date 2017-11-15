@@ -344,6 +344,10 @@ nav a:hover {
 #project p a {
     text-decoration: underline;
 }
+ #project blockquote {
+    margin-left: 1em;
+    font-style: italic;
+ }
 
 /* -------------------------------------------------------------------
                                                 About       

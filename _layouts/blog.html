@@ -14,13 +14,10 @@
 <a id="content"></a>
 
 
-<section id="project" itemscope itemtype="http://schema.org/Photograph">
+<section id="project" itemscope itemtype="http://schema.org/BlogPosting">
 
-	{% if page.photograph %}
-	<img src={{ site.url }}/photographs/{{ page.photograph }} />
-	{% endif %}
-	<h2 itemprop="name">{{ page.title }}</h2>
-	<div itemprop="description">{{ page.content }}</div>
+	<h2 itemprop="headline">{{ page.title }}</h2>
+	<div itemprop="articleBody">{{ page.content }}</div>
 
 </section>
 
