@@ -22,12 +22,13 @@
 	<!-- <h2>Projects</h2> -->
 	{% for post in site.posts %}
 		<section>
-			<!-- <h2>{{ post.title }}</h2> -->
 			<a href={{ post.url }}>
 			{% if post.photograph %}
 				<img src={{ site.url }}/photographs/{{ post.photograph }} />
 			{% elsif post.gallery %}
 				<img src={{ site.url }}/photographs/{{ post.gallery[0] }} />
+			{% else %}
+				<h2>{{ post.title }}</h2>
 			{% endif %}
 			</a>
 		</section>
