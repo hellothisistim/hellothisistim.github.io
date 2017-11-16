@@ -4,6 +4,7 @@ title:  "Characterizing Instax Mini, part 2: analysis of primary and secondary c
 tags: 
  - imaging 
  - film
+ - instax
 category: blog
 ---
 
