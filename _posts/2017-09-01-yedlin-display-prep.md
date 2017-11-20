@@ -13,7 +13,7 @@ Yedlin loves film, but he doesn't believe in "the mystery of film." He believes 
 
 Have a look at Yedlin's [Display Prep Demo](http://yedlin.net/DisplayPrepDemo/). In it, he compares cinematic images shot on film with digital footage that he prepared to look like film using the techniques he's developed. See if you can pick which clips are film and which are digital. I sure can't. He claims that nobody has been able to pick which is which with any sort of consistency.
 
-"The reason I got interested in color science is not that I don't like film. It's that [I] love film and don't want [its] tradition to vanish." -- [Yedlin](https://twitter.com/steveyedlin/status/686314296679219201)
+[!["The reason I got interested in color science is not that I don't like film. It's that [I] love film and don't want [its] tradition to vanish." -- Yedlin]({{ "/photographs/blog/2017/yedlin-loveFilm.png" }})](https://twitter.com/steveyedlin/status/686314296679219201)
 
 VFX artist and supervisor, Todd Vaziri ([@tvaziri](https://twitter.com/tvaziri)), wrote up a [great introduction](https://storify.com/tvaziri/steve-yedlin) (in tweets, natch) to Yedlin and what he’s getting at with film modeling.
 
