@@ -34,11 +34,24 @@ Second, it has a handy tool called "PositionToPoints" for turning images into po
 
 ![Animated RGB unit cube]({{ "/photographs/blog/2017/instax-rgbCubeAni.gif"}})
 
-I'd like to exploit this for my analysis. Lightness is measured along that line. Hue and saturation are determined by how far a point is from the line and in what direction. But that diagonal makes the math part of this a real pain in the butt. I'm not scared of math, but I refuse to do hard work when there's a better option. Instead of looking at the image as RGB data, I can look at it as [YPbPr](https://en.wikipedia.org/wiki/YPbPr) data, which is similar to [Lab](https://en.wikipedia.org/wiki/Lab_color_space) in that it separates lightness and color information, but keeps the shape of the unit cube better.
+I'd like to exploit this for my analysis. Lightness is measured along that line. Hue and saturation are determined by how far a point is from the line and in what direction. But that diagonal makes the math part of this a real pain in the butt. I'm not scared of math, but I refuse to do hard work when there's a better option. Instead of graphing the image as RGB data, I can graph it as [YPbPr](https://en.wikipedia.org/wiki/YPbPr) data, which is similar to [Lab](https://en.wikipedia.org/wiki/Lab_color_space) in that it separates lightness and color information, but keeps the shape of the unit cube better.
 
 ![Animated Lab unit cube]({{ "/photographs/blog/2017/instax-YPbPrCubeAni.gif"}})
 
-Using YPbPr shifts the greyscale line to the X axis and now I can look at color information as distance and direction from X.
+Using YPbPr shifts the greyscale line to the X axis and now I can look at color information as distance and direction from X. Looking down the X axis gives me the greys in the middle and the color wheel around the outside. Now that we have an easily readable graph, we can dig into the data.
+
+And here are the primaries and secondary patches as well as the greyscale patches from the Instax wedge in YPbPr colorspace.
+
+(TODO)
+![A graph of the primaries, secondaries and greyscale patches from the Instax wedge]({{ "/photographs/blog/2017/instax-rgbcmygWedge.png" }})
+
+Compare to DSLR wedge.
+
+
+Let's look at red first.
+
+
+
 
 So if I want to graph these color values, a 
 
