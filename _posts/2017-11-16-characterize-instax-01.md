@@ -12,7 +12,7 @@ category: blog
 
 Inspired by [Steve Yedlin]( {% post_url 2017-09-01-yedlin-display-prep %} )'s work with cinema film, I'm going to try to characterize the look of [Instax film](http://www.fujifilm.com/products/instant_photo/films/instax_mini/). I'll then apply the look of that photochemical process to digital photographs. This project will be ongiong as I dig through the data and build a model to simulate the film.
 
-![The ColorChecker and other charts on an 18% grey-painted board]( {{ "/photographs/blog/2017/instax-colorChecker.jpg" | absolute_url }} )
+![The ColorChecker and other charts on an 18% grey-painted board]( {{ site.baseurl }}{{ "/photographs/blog/2017/instax-colorChecker.jpg" | absolute_url }} )
 
 In order to understand how Instax represents various colors at various brightnesses, I shot an exposure wedge of an [X-Rite ColorChecker](http://xritephoto.com/colorchecker-classic) target. An exposure wedge is a sequence of images shot at different exposures, ranging from very dark to very light. This is what it looked like when I finished.
 
