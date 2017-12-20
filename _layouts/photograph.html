@@ -17,10 +17,10 @@
 <section id="project" itemscope itemtype="http://schema.org/Photograph">
 
 	{% if page.photograph %}
-	<img src={{ site.url }}/photographs/{{ page.photograph }} />
+	<img src={{ site.url }}/photographs/{{ page.photograph }} alt="{{ page.title }}" />
 	{% elsif page.gallery %}
 		{% for photograph in page.gallery %}
-			<img src={{ site.url }}/photographs/{{ photograph }} />	
+			<img src={{ site.url }}/photographs/{{ photograph }} alt="{{ page.title }}" />	
 		{% endfor %}
 	{% endif %}
 	<!-- <h2 itemprop="name">{{ page.title }}</h2> -->
