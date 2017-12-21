@@ -1,5 +1,6 @@
 ---
 layout: photograph
+date: 2017-07-03
 title: "Skybox Lumen, 3 July 2017"
 gallery: 
  - skyBox-lumen-2017-07-03-neg.jpg

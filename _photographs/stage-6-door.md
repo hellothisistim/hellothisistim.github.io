@@ -1,13 +1,14 @@
 ---
 layout: photograph
-title: "Outside the Stage 5 Doors"
-photograph: "outsideTheStage5Doors-2017.jpg"
+date: 2017-05-01
+title: "Stage 6 Door"
+photograph: "stage6door-2017.jpg"
 tags: 
  - photograph
  - silver gelatin
  - paper negative
 category: photograph
 ---
-Outside the Stage 5 Doors, 2017.
+Stage 6 Door, 2017.
 
 Silver gelatin print. 4" x 5"

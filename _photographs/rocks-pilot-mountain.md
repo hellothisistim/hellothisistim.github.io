@@ -1,5 +1,6 @@
 ---
 layout: photograph
+date: 2016-09-21
 title: "Rocks, Pilot Mountain"
 photograph: "rocks-pilotMountain.jpg"
 tags: 

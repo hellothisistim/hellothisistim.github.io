@@ -1,5 +1,6 @@
 ---
 layout: photograph
+date: 2015-01-09
 title: "Poor Calvin"
 photograph: "MG_7863.jpg"
 tags: 

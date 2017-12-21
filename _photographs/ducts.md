@@ -1,5 +1,6 @@
 ---
 layout: photograph
+date: 2017-05-01
 title: "Ducts"
 photograph: "ducts.jpg"
 tags: 

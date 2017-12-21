@@ -1,5 +1,6 @@
 ---
 layout: photograph
+date: 2017-09-22
 title: "Annular Eclipse, 22 September 2017"
 photograph: "annularEclipse_2017-09-22.jpg"
 tags: 

@@ -1,5 +1,6 @@
 ---
 layout: photograph
+date: 2017-07-01
 title: "Kitchen Windowsill"
 photograph: "kitchenWindowsill.jpg"
 tags: 

@@ -1,11 +1,12 @@
 ---
 layout: photograph
-title: "Bann Drives"
-photograph: "LA-bannDrives.jpg"
+date: 2004-01-01
+title: "LA Palm Tree"
+photograph: "LApalm.jpg"
 tags: 
  - photograph
  - silver gelatin
 category: photograph
 ---
-Bann Drives, 2004. Print made in 2010.
+LA Palm Tree, 2004. Print made in 2010.
 Silver gelatin print.
