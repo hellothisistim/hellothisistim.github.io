@@ -20,12 +20,13 @@
 <main>
 <section id="projects">
 	<!-- <h2>Projects</h2> -->
-	{% for item in site.photographs %}
+	{% assign sorted = site.photographs | sort: 'date' | reverse %}
+	{% for item in sorted %}
 		<section>
 			<a href={{ item.url | relative_url }}>
 			{% if item.photograph %}
 				<img src=/assets/photographs/{{ item.path | split: "/" | last | split: "." | first }}/{{ item.photograph }} alt="{{ item.title }}" />
-			{% elsif post.gallery %}
+			{% elsif item.gallery %}
 				<img src=/assets/photographs/{{ item.path | split: "/" | last | split: "." | first }}/{{ item.gallery[0] }} alt="{{ item.title }}" />
 			{% else %}
 				<h2>{{ item.title }}</h2>
