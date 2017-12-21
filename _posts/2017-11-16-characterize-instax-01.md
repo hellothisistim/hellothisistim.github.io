@@ -10,7 +10,7 @@ category: blog
 
 ![Instax Mini exposure wedge]( {{ "/photographs/blog/2017/instax-wedge-horiz.jpg" | absolute_url }})
 
-Inspired by [Steve Yedlin]( {% post_url 2017-09-01-yedlin-display-prep %} )'s work with cinema film, I'm going to try to characterize the look of [Instax film](http://www.fujifilm.com/products/instant_photo/films/instax_mini/). I'll then apply the look of that photochemical process to digital photographs. This project will be ongiong as I dig through the data and build a model to simulate the film.
+Inspired by [Steve Yedlin]( {{ site.url }}{{ site.baseurl }}{% post_url 2017-09-01-yedlin-display-prep %} )'s work with cinema film, I'm going to try to characterize the look of [Instax film](http://www.fujifilm.com/products/instant_photo/films/instax_mini/). I'll then apply the look of that photochemical process to digital photographs. This project will be ongiong as I dig through the data and build a model to simulate the film.
 
 ![The ColorChecker and other charts on an 18% grey-painted board]( {{ site.baseurl }}{{ "/photographs/blog/2017/instax-colorChecker.jpg" | absolute_url }} )
 
