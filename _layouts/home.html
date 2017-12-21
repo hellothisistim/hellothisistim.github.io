@@ -20,15 +20,15 @@
 <main>
 <section id="projects">
 	<!-- <h2>Projects</h2> -->
-	{% for post in site.posts %}
+	{% for item in site.photographs %}
 		<section>
-			<a href={{ site.url}}{{ post.url }}>
-			{% if post.photograph %}
-				<img src={{ site.url }}/photographs/{{ post.photograph }} alt="{{ post.title }}" />
+			<a href={{ item.url | relative_url }}>
+			{% if item.photograph %}
+				<img src=/assets/photographs/{{ item.path | split: "/" | last | split: "." | first }}/{{ item.photograph }} alt="{{ item.title }}" />
 			{% elsif post.gallery %}
-				<img src={{ site.url }}/photographs/{{ post.gallery[0] }} alt="{{ post.title }}" />
+				<img src=/assets/photographs/{{ item.path | split: "/" | last | split: "." | first }}/{{ item.gallery[0] }} alt="{{ item.title }}" />
 			{% else %}
-				<h2>{{ post.title }}</h2>
+				<h2>{{ item.title }}</h2>
 			{% endif %}
 			</a>
 		</section>
