@@ -28,6 +28,8 @@ permalink: /:categories/:title
 collections:
   projects:
     output: true
+  photographs:
+    output: true
 
 # Build settings
 markdown: kramdown
