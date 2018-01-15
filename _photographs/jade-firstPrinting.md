@@ -15,7 +15,7 @@ Jade, 2017.
 Silver gelatin print on matte fiber paper, selenium toned.
 First printing. Edition of two plus one artist proof. 4" x 5" image on 5 1/2" x 6 3/4" paper.
 
-$50 plus $20 shipping and handling.
+$50 includes shipping via USPS Priority within USA
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
