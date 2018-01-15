@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700|Old+Standard+TT:400,400i|Open+Sans:400,400i);
 
-/* Desktop CSS 
+/* Desktop CSS
    Tim Bowman
    GIT 414
 */
@@ -21,7 +21,7 @@ font-family: 'Open Sans', sans-serif;
 
 
 /* -------------------------------------------------------------------
-                                                CSS foundation      
+                                                CSS foundation
 */
 /* Thank you to Jayden Seric for the CSS foundation and explanation. */
 /* http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation */
@@ -96,7 +96,7 @@ img {
 
 /* -------------------------------------------------------------------
 ----------------------------------------------------------------------
-                                                Global Styles       
+                                                Global Styles
 */
 body {
     color: rgb(134, 134, 135);
@@ -127,7 +127,7 @@ h2, h3 {
 }
 
 /* Hide main section headers */
-nav > h2, 
+nav > h2,
 #intro > h2,
 #projects > h2,
 #about > h2,
@@ -139,8 +139,16 @@ nav > h2,
     width: 0px; /* Avoids hidden text headlines from blocking links. */
 }
 
+/* Fun with PayPal buttons */
+form[action*="paypal"] {
+    margin-bottom: 1.5em;
+}
+form img[src*="paypalobjects"] {
+    width: auto !important;
+}
+
 /* -------------------------------------------------------------------
-                                                Header       
+                                                Header
 */
 header {
     font-family: 'Old Standard TT', serif;
@@ -172,7 +180,7 @@ header > p {
     font-style: italic;
 }
 header a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 #contact {
     font-size: 0.75em;
@@ -188,7 +196,7 @@ header a {
 }
 
 /* -------------------------------------------------------------------
-                                                Navigation       
+                                                Navigation
 */
 nav {
     font-family: 'Old Standard TT', serif;
@@ -232,7 +240,7 @@ nav a:hover {
 
 
 /* -------------------------------------------------------------------
-                                                Intro       
+                                                Intro
 */
 #intro {
     font-family: 'Roboto Slab', serif;
@@ -246,7 +254,7 @@ nav a:hover {
     text-align: center;
 }
 /* -------------------------------------------------------------------
-                                                Projects       
+                                                Projects
 */
 #projects {
     background: white;
@@ -279,7 +287,7 @@ nav a:hover {
     margin-bottom: 0;
 }
 #projects a {
-    text-decoration: none; 
+    text-decoration: none;
     color: rgb(0, 179, 197);
 }
 #projects a:hover {
@@ -288,7 +296,7 @@ nav a:hover {
 
 
 /* -------------------------------------------------------------------
-                                                Project (singlular!)       
+                                                Project (singlular!)
 */
 #project {
     background: white;
@@ -350,7 +358,7 @@ nav a:hover {
  }
 
 /* -------------------------------------------------------------------
-                                                About       
+                                                About
 */
 #about {
     font-family: 'Open Sans', sans-serif;
@@ -383,7 +391,7 @@ nav a:hover {
 
 /* -------------------------------------------------------------------
 
-                                                Social Media       
+                                                Social Media
 */
 #socialMedia {
     background-color: rgb(0, 179, 197);
@@ -486,7 +494,7 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
 
 /* -------------------------------------------------------------------
 
-                                                Footer       
+                                                Footer
 */
 
 
@@ -529,7 +537,7 @@ footer {
 
 /* -------------------------------------------------------------------
 ----------------------------------------------------------------------
-                                                Wide mobile       
+                                                Wide mobile
 */
 @media only screen and (min-width: 448px) {
 
@@ -543,7 +551,7 @@ footer {
 
 /* -------------------------------------------------------------------
 ----------------------------------------------------------------------
-                                                Narrow desktop       
+                                                Narrow desktop
 */
 @media only screen and (min-width: 736px) {
 
@@ -744,7 +752,7 @@ footer {
 
 /* -------------------------------------------------------------------
 ----------------------------------------------------------------------
-                                                Medium desktop       
+                                                Medium desktop
 */
 @media only screen and (min-width: 1220px) {
 
@@ -791,7 +799,7 @@ section#projects section {
 
 /* -------------------------------------------------------------------
 ----------------------------------------------------------------------
-                                                Large desktop       
+                                                Large desktop
 */
 @media only screen and (min-width: 1708px) {
 
