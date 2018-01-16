@@ -30,6 +30,8 @@ collections:
     output: true
   photographs:
     output: true
+  paypal:
+    output: true
 
 # Build settings
 markdown: kramdown
@@ -43,4 +45,3 @@ exclude:
   - Gemfile.lock
   - projects
   - vendor
-  
