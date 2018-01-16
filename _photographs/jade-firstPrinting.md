@@ -21,10 +21,8 @@ Print number two of the first printing is available now. $50 includes free shipp
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="6GNV2LFTNQF6U">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<img alt="One pixel because PayPal says so." border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-
-
 
 I have been working with paper negatives for a year now, struggling to find the balance between control and discovery. I like the technique because it's tactile and the idea of control becomes less certain the farther you dig into it. In the good ones, the subject and the surface of the photograph find an uneasy truce.
 
