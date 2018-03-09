@@ -7,7 +7,7 @@ schemaType: CreativeWork  # itemtype from schema.org
 permalink: /:collection/:title/
 
 gallery-images:
- - src: /cannondale-supersix/cannondale-endTagAnim-gallery.gif
+ - src: /assets/projects/cannondale-supersix/cannondale-endTagAnim-gallery.gif
    width: 448
    height: 252
    alt: "Cannondale"

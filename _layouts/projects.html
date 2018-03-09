@@ -11,26 +11,26 @@
 
 <a id="content"></a>
 
-<!--<section id="intro">
+<!-- <section id="intro">
 	<h2>Intro</h2>
 	<p>Tim Bowman is a compositor, trouble-shooter, and image-maker. He brings his calm competence to work on feature films, television, and your next production.</p>
-</section>-->
+</section>
+ -->
 
 
 <main>
 <section id="projects">
-	<!-- <h2>Projects</h2> -->
-	{% assign sorted = site.photographs | sort: 'date' | reverse %}
-	{% for item in sorted %}
+	<h2>Projects</h2>
+
+	{% assign projects = site.projects | sort:"priority" %}
+	{% for project in projects %}
 		<section>
-			<a href={{ item.url | relative_url }}>
-			{% if item.photograph %}
-				<img src=/assets/photographs/{{ item.path | split: "/" | last | split: "." | first }}/{{ item.photograph }} alt="{{ item.title }}" />
-			{% elsif item.gallery %}
-				<img src=/assets/photographs/{{ item.path | split: "/" | last | split: "." | first }}/{{ item.gallery[0] }} alt="{{ item.title }}" />
-			{% else %}
-				<h2>{{ item.title }}</h2>
-			{% endif %}
+			<a href={{ project.url }}>
+			{% for image in project.gallery-images %}
+				{% assign src = site.url | append: image.src %}
+			    <img src="{{ src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{image.alt }}">
+			{% endfor %}
+			<h2>{{ project.title }}</h2>
 			</a>
 		</section>
 	{% endfor %}
@@ -45,6 +45,8 @@
 {% include footer.html %}
 
 <div class="textOnly"><a href="#top" title="Go back to the top">You have reached the bottom of the page, click here to go back to the top</a></div>
+
+{% include analytics.html %}
 
 </body>
 </html>
