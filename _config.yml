@@ -43,5 +43,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - projects
   - vendor
