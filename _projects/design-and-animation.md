@@ -19,7 +19,7 @@ videos:
    controls: controls 
    poster: /assets/projects/design-and-animation/TimBowman_DesignAnimateReel-poster.jpg
    source:
-     src: https://www.dropbox.com/s/154kv1vfwjdtabp/TimBowman_DesignAnimateReel.mp4?
+     src: https://www.dropbox.com/s/154kv1vfwjdtabp/TimBowman_DesignAnimateReel.mp4
      type: video/mp4
    duration:
      minutes: 1
