@@ -19,7 +19,7 @@ videos:
    controls: controls
    poster: /assets/projects/film-compositing/reel-filmCompositing-still.jpg
    source:
-     src: /assets/projects/film-compositing/TimBowman_CompReel_Feat.mp4
+     src: http://netherlogic.com/media/TimBowman_CompReel_Feat.mp4
      type: video/mp4
    duration:
      minutes: 4
