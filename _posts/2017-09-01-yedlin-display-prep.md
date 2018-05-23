@@ -15,7 +15,7 @@ Have a look at Yedlin's [Display Prep Demo](http://yedlin.net/DisplayPrepDemo/).
 
 [!["The reason I got interested in color science is not that I don't like film. It's that [I] love film and don't want [its] tradition to vanish." -- Yedlin]({{ "/assets/posts/2017-09-01-yedlin-display-prep/yedlin-loveFilm.png" }})](https://twitter.com/steveyedlin/status/686314296679219201)
 
-VFX artist and supervisor, Todd Vaziri ([@tvaziri](https://twitter.com/tvaziri)), wrote up a [great introduction](https://storify.com/tvaziri/steve-yedlin) (in tweets, natch) to Yedlin and what he’s getting at with film modeling.
+VFX artist and supervisor, Todd Vaziri ([@tvaziri](https://twitter.com/tvaziri)), wrote up a great introduction (which is sadly no longer available on Storify) to Yedlin and what he’s getting at with film modeling.
 
 Yedlin has done a bunch of writing on [his web site](http://yedlin.net/) and on Twitter ([@steveyedlin](https://twitter.com/steveyedlin)) about film and color. There's a lot of detail that that I'm glossing over here. Definitely go read it from the source. I especially recommend [On Color Science for Filmmakers](http://yedlin.net/OnColorScience/).
 
