@@ -121,9 +121,13 @@ a:visited {
 a:hover {
     color: rgb(255, 133, 31);
 }
-h2, h3 {
+h2 {
     font-family: 'Roboto Slab', serif;
     color: rgb(0, 179, 197);
+}
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
 }
 
 /* Hide main section headers */
@@ -644,8 +648,8 @@ section#projects section {
 section#projects h2,h3 {
     font-size: 1em;
     margin-top: 0.125em;
-    margin-bottom: 1em;
-}
+/*    margin-bottom: 1em;
+*/}
 
 section#project {
     /*margin-top: 52px;*/
