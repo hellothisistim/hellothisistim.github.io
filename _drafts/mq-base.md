@@ -9,11 +9,18 @@ tags:
 category: blog
 ---
 
-A three-part photographic paper developer based on metol and hydroquinone (MQ). Add varying amounts of water, carbonate, and bromide to make tray-strength Kodak D-72 (Dektol), Kodak D-52 (Selectol), or Defender 55D (a warmtone developer) from a single stock solution. Having the accelerator (carbonate) separate means it can also be used for divided development. 
+A three-part photographic paper developer based on metol and hydroquinone (MQ). The developer is in three parts to maximize flexibility. Follow the instructions below to mix the stock solutions. Then combine varying amounts of MQ Base, carbonate, bromide and water. You can make these tray-strength developers:
+
+- Kodak D-72 (Dektol)
+- Kodak D-52 (Selectol)
+- Defender 55-D (a warmtone developer)
+- SA Warm-tone (another warm tone developer from [Steve Anchell](http://anchellworkshops.com/about/steve-anchell/))
+
+Separating the accelerator (carbonate) means that MQ Base can also be used for divided development. 
 
 ## Stock solutions
 
-Prepare these three stock solutions: MQ Base, 6% carbonate, 10% bromide. Dissolving the components in warm water is not strictly necessary, but it does speed up the process. A liter of MQ Base stock keeps for at least 3 months in brown glass.
+Prepare the following three stock solutions and store them in separate bottles. A liter of MQ Base stock keeps for at least 3 months in brown glass. The carbonate and bromide solutions keep indefinitely.
 
 *MQ Base*  
 Distilled water at 125F/52C: 800ml  
@@ -35,7 +42,7 @@ Distilled water to make: 500ml
 
 ## Working strength dilutions
 
-MQ Base can be mixed to be any of the following developers: Kodak D-72 (Dektol), Kodak D-52 (Selectol), or Defender 55D. I have also included an approximation of Steve Anchell's SA Warm-tone developer, as published in The Variable Contrast Printing Manual.
+Dilute the MQ Base solutions as follows. Each dilution yields 1 liter of working developer.
 
 *D-72 (Dektol)*  
 MQ Base stock: 333ml
@@ -43,48 +50,36 @@ MQ Base stock: 333ml
 10% bromide: 7ml
 Distilled water: 216ml
 
-To make 1 liter of working strength D-52 (Selectol):
-MQ Base stock: 	167ml
-6% carbonate:	95ml
-10% bromide:	5ml
-Distilled water:	733ml
+*D-52 (Selectol)*  
+MQ Base stock: 167ml
+6% carbonate: 95ml
+10% bromide: 5ml
+Distilled water: 733ml
 
-To make 1 liter of working strength Defender 55D:
-MQ Base stock:	278ml
-6% carbonate:	250ml
-10% bromide:	43ml
-Distilled water:	429ml
+*Defender 55-D*  
+MQ Base stock: 278ml
+6% carbonate: 250ml
+10% bromide: 43ml
+Distilled water: 429ml
 
-
-To make 1 liter of working strength SA Warm-tone:
-		As 1:1 dilution	As 1:3 dilution
-	MQ Base stock:	250ml	125ml
-	6% carbonate:	127.5ml	64ml
-	10% bromide:	5ml	3ml
-	Distilled water:	617.5ml	808ml
+*SA Warm-tone:*  
+As 1:1 dilution:  
+MQ Base stock: 250ml
+6% carbonate: 127.5ml
+10% bromide: 5ml
+Distilled water: 617.5ml
+
+As 1:3 dilution:
+MQ Base stock: 125ml
+6% carbonate: 64ml
+10% bromide: 3ml
+Distilled water: 808ml
+
 Note: This is not an exact match for Anchell’s SA Warm-tone. SA Warmtone has a teensy bit more hydroquinone (4.2 grams per gram of metol) than MQ Base (4.0 grams per gram of metol.) In 1:1 working solution, this difference amounts to 5%  less hydroquinone. 
 
+## Get in touch
+If you try MQ Base, please let me know how it goes for you. 
 
-Tim Bowman
-tim@hellothisistim.com
-http://hellothisistim.com
- Updated: June 2018
+## References
 
-
-
-A common-denominator MQ developer
-
-plug the Darkroom Cookbook
-
-What are MQ developers?
-
-Dektol, Selectol, and Defender 55D (three MQ developers) have the same proportion of metol, hydroquinone, and sodium sulfite.
-
-First, factor out the common component quantities so we have a stock with the minimum metol, sodium sulfite, hydroquinone, carbonate, and bromide. This gets augmented with more carbonate and/or bromide according to which developer it's being.
-
-Okay, so now what happens if we eliminate the carbonate and bromide entirely?
-  Shelf life okay. (At least 3 months)
-  Enables divided development
-  Still flexible
-  
-Share formula.
+When formulating MQ Base, I used the recipes for Kodak D-72, Kodak D-52, and Defender 55-D from Steve Anchell’s [The Darkroom Cookbook](https://www.amazon.com/gp/product/1138959189/). The recipe for SA Warm-tone came from Anchell’s [Variable Contrast Printing Manual](https://www.amazon.com/gp/product/0240802594/). Special thanks to Mr. Anchell for preserving and sharing these formulas (and many others!)
