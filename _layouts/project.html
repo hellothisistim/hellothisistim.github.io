@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+{% include nav.html %}
+
+
+<main>
+<a id="content"></a>
+
+<section id="project" itemscope itemtype="http://schema.org/{{ page.schemaType }}">
+
+	{% for image in page.images %}
+		{% assign src = site.url | append: image.src %}
+	    <img src="{{ src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{image.alt }}">
+	    	{% endfor %}
+	    
+	{% for video in page.videos %}
+	    {% assign poster = site.url | append: video.poster %}
+		<video width="{{ video.width }}" height="{{ video.height}}" controls="{{ video.controls }}" poster="{{ poster }}">
+		{% assign snip = video.source.src | slice: 0,4 %}
+		{% if snip == "http" %}
+			{% assign src = video.source.src %}
+		{% else %}
+			{% assign src = site.url | append: video.source.src %}
+		{% endif %}
+		<source src="{{ src }}" type="{{ video.source.type }}" />
+		Sorry, it looks like your browser does not support the video tag.
+		</video>
+	{% endfor %}
+
+	{% for youtube in page.youtube-vids %}
+		<iframe width={{ youtube.width}} height={{ youtube.height}} src={{ youtube.src}} {% if youtube.allowfullscreen %} allowfullscreen {% endif %}></iframe>
+	{% endfor %}
+
+	<h2 itemprop="name">{{ page.title }}</h2>
+	<div itemprop="description">{{ page.content }}</div>
+
+</section>
+
+</main>
+
+{% include social-media.html %}
+
+{% include footer.html %}
+
+<div class="textOnly"><a href="#top" title="Go back to the top">You have reached the bottom of the page, click here to go back to the top</a></div>
+
+{% include analytics.html %}
+
+</body>
+</html>

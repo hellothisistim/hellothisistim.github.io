@@ -3,7 +3,7 @@ layout: photograph
 date: 2017-10-17
 title: "Jade, 2017. First printing."
 photograph: "jade-firstPrinting-image.jpg"
-tags: 
+tags:
  - photograph
  - silver gelatin
  - edition
@@ -15,7 +15,14 @@ Jade, 2017.
 Silver gelatin print on matte fiber paper, selenium toned.
 First printing. Edition of two plus one artist proof. 4" x 5" image on 5 1/2" x 6 3/4" paper.
 
-$50.
+Print number two of the first printing is available now. $50 includes free shipping via USPS Priority within the US. Please email me for shipping outside the US.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="6GNV2LFTNQF6U">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="One pixel because PayPal says so." border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 
 I have been working with paper negatives for a year now, struggling to find the balance between control and discovery. I like the technique because it's tactile and the idea of control becomes less certain the farther you dig into it. In the good ones, the subject and the surface of the photograph find an uneasy truce.
 
@@ -26,4 +33,3 @@ Recto
 
 ![Verso view showing edition information and signature of Jade, 2017.](/assets/photographs/{{ page.path | split: "/" | last | split: "." | first }}/jade-firstPrinting-verso.jpg)
 Verso
-
