@@ -32,12 +32,22 @@ collections:
     output: true
   paypal:
     output: true
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
 
 # Build settings
 markdown: kramdown
 liquid:
   error_mode: strict
-theme: minima
+#theme: minima
 gems:
   - jekyll-feed
 exclude:

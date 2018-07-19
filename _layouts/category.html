@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+
+<main>
+	<h2>Category: {{ page.tag }}</h2>
+
+	{% for post in site.tags[page.tag] %}
+		<section>
+			<a href={{ post.url | relative_url }}>
+			<h2>{{ post.title }}</h2>
+			</a>
+			{{ post.excerpt }}
+			<p>{{ post.date | date: "%A, %-d %B %Y" }}</p>
+		</section>
+	{% endfor %}
+
+</main>
