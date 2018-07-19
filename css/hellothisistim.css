@@ -110,7 +110,7 @@ a:link {
     color: rgb(134, 134, 135);
 }
 a:focus {
-    color: rgb(255, 133, 31);
+    color: rgb(0, 179, 197);
 }
 a:active {
     color: rgb(0, 179, 197);
@@ -119,11 +119,10 @@ a:visited {
     color: rgb(134, 134, 135);
 }
 a:hover {
-    color: rgb(255, 133, 31);
+    color: rgb(0, 179, 197);
 }
 h2 {
     font-family: 'Roboto Slab', serif;
-    color: rgb(0, 179, 197);
 }
 h3 {
     font-family: 'Roboto Slab', serif;
@@ -189,7 +188,6 @@ header a {
 #contact {
     font-size: 0.75em;
     line-height: 1.5em;
-    /*margin-top: 0.5em;*/
     font-style: italic;
 }
 #contact ul {
@@ -290,14 +288,6 @@ nav a:hover {
 #projects img:last-of-type {
     margin-bottom: 0;
 }
-#projects a {
-    text-decoration: none;
-    color: rgb(0, 179, 197);
-}
-#projects a:hover {
-    color: rgb(255, 133, 31);
-}
-
 
 /* -------------------------------------------------------------------
                                                 Project (singlular!)
@@ -316,8 +306,8 @@ nav a:hover {
 #project h2 {
     font-family: 'Roboto Slab', serif;
     line-height: 1.2em;
-    color: rgb(0, 179, 197);
-    margin-top: 0.5em;
+/*    color: rgb(0, 179, 197);
+*/    margin-top: 0.5em;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -366,7 +356,6 @@ nav a:hover {
 */
 #about {
     font-family: 'Open Sans', sans-serif;
-    /*line-height: 1.3em;*/
     background: white;
     padding-bottom: 2em;
 }
@@ -381,7 +370,6 @@ nav a:hover {
     margin-bottom: 1em;
 }
 #about p {
-    /*text-align: justify;*/
     margin-left: 1em;
     margin-right: 1em;
     padding-bottom: 1em;
