@@ -33,9 +33,9 @@ videos:
 
 This is a compilation of moving images made for my favorite clients. The work ranges from design and animation to pre-production planning and on-set VFX supervision.
 
-- <a href="https://www.comcast.com" target="_blank">Comcast</a>
-- <a href="http://www.economist.com" target="_blank">The Economist</a>
-- <a href="http://www.nfl.com" target="_blank">NFL</a>
-- <a href="http://www.cannondale.com" target="_blank">Cannondale</a>
-- <a href="http://www.reebok.com" target="_blank">Reebok</a>
-- <a href="https://www.siemens.com" target="_blank">Siemens</a>
+- Comcast
+- The Economist
+- NFL
+- Cannondale
+- Reebok
+- Siemens
