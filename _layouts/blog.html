@@ -1,35 +1,25 @@
-<!doctype html>
-<html lang="en">
-
-{% include head.html %}
-
-<body>
-
-{% include header.html %}
-
-{% include nav.html %}
-
+---
+layout: default
+---
 
 <main>
-<a id="content"></a>
-
 
 <section id="project" itemscope itemtype="http://schema.org/BlogPosting">
 
 	<h2 itemprop="headline">{{ page.title }}</h2>
+
+
+	<p class="subhead">Tagged: 
+		{% for tag in page.tags %}
+		{% capture tag_name %}{{ tag }}{% endcapture %}
+    	<a href="/tag/{{ tag_name | url_encode }}">{{ tag_name }}</a>
+		{% endfor %}
+	</p>
+
+
 	<div itemprop="articleBody">{{ page.content }}</div>
+
 
 </section>
 
 </main>
-
-{% include social-media.html %}
-
-{% include footer.html %}
-
-<div class="textOnly"><a href="#top" title="Go back to the top">You have reached the bottom of the page, click here to go back to the top</a></div>
-
-{% include analytics.html %}
-
-</body>
-</html>
