@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+
+<main>
+	<h2>Tag: {{ page.tag }}</h2>
+
+
+	{% for post in site.posts %}
+		{% if post.tags contains page.tag %}
+			<section>
+				<a href={{ post.url | relative_url }}>
+				<h3>{{ post.title }}</h3>
+				</a>
+				<p class=subhead>{{ post.date | date: "%A, %-d %B %Y" }}</p>
+				<!-- {{ post.excerpt }} -->
+			</section>
+		{% endif %}
+	{% endfor %}
+
+</main>
