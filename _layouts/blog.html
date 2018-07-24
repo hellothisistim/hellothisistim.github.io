@@ -8,9 +8,13 @@ layout: default
 
 	<h2 itemprop="headline">{{ page.title }}</h2>
 
-	<p>Tagged: {% for foo in page.tags %}
-			{{ foo }}
-		{% endfor %}</p>
+
+	<p class="subhead">Tagged: 
+		{% for tag in page.tags %}
+		{% capture tag_name %}{{ tag }}{% endcapture %}
+    	<a href="/tag/{{ tag_name | url_encode }}">{{ tag_name }}</a>
+		{% endfor %}
+	</p>
 
 
 	<div itemprop="articleBody">{{ page.content }}</div>

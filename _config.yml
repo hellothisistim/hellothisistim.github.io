@@ -32,16 +32,16 @@ collections:
     output: true
   paypal:
     output: true
-  category:
+  tag:
     output: true
 
 defaults:
   -
     scope:
       path: ""
-      type: category
+      type: tag
     values:
-      layout: "category"
+      layout: "tag"
 
 # Build settings
 markdown: kramdown
