@@ -2,7 +2,7 @@
 layout: blog
 title:  "Douglas Stockdale: Middle Ground"
 tags: 
- - film
+ - photobooks
 category: blog
 ---
 
