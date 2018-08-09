@@ -6,12 +6,9 @@ tags:
 category: blog
 ---
 
-[![Ducts, a silver-gelatin photograph by Tim Bowman]( {{ "/assets/photographs/ducts/ducts.jpg" | relative_url }})](https://hellothisistim.com/photographs/ducts)
+[![Annular Eclipse, 22 September 2017 on the cover of Shots #140]( {{ "/assets/photographs/ducts/FFFF.jpg" | relative_url }})](https://hellothisistim.com/photographs/annular-eclipse)
 
-I'm so pleased to announce that [Don't Take Pictures](http://www.donttakepictures.com/gallery-structure/) has selected my photograph, [Ducts](https://hellothisistim.com/photographs/ducts), for their Structure exhibition  on their web site. 
+Can't even beieve it. This is my photograph, Annular Eclipse, 22 September 2017, on the cover of the most recent [Shots](https://shotsmag.com/) issue, number 140, entitled _Forces of Nature_.
 
-> Most of us spend the majority of our days inside of buildings. More than strictly shelters, the architectural styles and details of buildings show different geographic, cultural, and historic aspects of our world. From institutions of learning to places of worship; residential dwellings or the workplace; inhabited or abandoned, for this exhibition, Don’t Take Pictures presents photographs of architecture from around the world.
+Shots has been around for a while. It was originally pubished as a weirdly large, single-color, newsprint magazine out of the tipi where Dan Price, the founding publisher, lived. Dan would publish the photos along with whatever envelope they arrived in so you could contact the photographer if you wanted to. This was all pre-internet, you see. A much younger me used to look at the issues on magazine rack at Tower Books on South Street in Philadelphia. I think I even sent him something at one point, but I never got anything published.
 
-The collected work is really great and I'm proud to be included. There's also a lot of urban landscape in there, and that really gets my motor running.
-
-[The exhibition](http://www.donttakepictures.com/gallery-structure/) is up through 21 August 2018.
