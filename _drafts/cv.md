@@ -1,0 +1,59 @@
+---
+layout: blog
+title:  CV"
+date:   2018-08-13 9:00:00 -0400
+tags: 
+ - cv 
+category: blog
+---
+
+Tim Bowman  
+717-330-4141  
+tim@hellothisistim.com
+hellothisistim.com
+
+## Education
+
+Arizona State University, Bachelor of Science in Graphic Information Technology, 2015
+
+Harrisburg Area Community College, Associate of Arts in Photography, 1999
+
+## Exhibitions
+
+HACC honors shows
+
+Collab with Jessica: Fahrrad Audio(?)
+
+VPAP : fountain
+
+### 2011
+
+VPAP@PIFA (Virtual Public Art Project @ Philadelphia International Festival of the Arts), Philadelphia, PA (in collaboration with Tim Bowman)
+
+### 2010
+
+Virtual Public Art Project: Philadelphia, Philadelphia, PA
+
+### 2006
+
+Surfacings, Hopkins House Gallery, Haddon Township, NJ (sound installation in collaboration with [Jessica Singerman](http://jessicasingerman.com/))
+
+
+
+
+SAWTOOTH PHOTO LEAGUE/DARKROOM SOCIETY, January 17 – March 17, 2017, Reception: Friday, February 3, 5-7pm. Works by photographers in Sawtooth’s Photography programming.
+
+Sawtooth Selects, June 1st – July 26th 2018, Eleanor and Egbert Davis Gallery
+
+Don't Take Pictures: Structure http://www.donttakepictures.com/gallery-structure/ May 23 – August 21, 2018
+
+
+Publications:
+
+Forces of Nature. [Shots](http://shotsmag.com/). 140, August 2017. Cover photograph. 
+
+## Lectures
+
+at Drexel
+
+at CAVEMODE
