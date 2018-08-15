@@ -15,7 +15,7 @@ Twin Arches, 12 November 2016.
 Silver gelatin print on glossy fiber paper, selenium toned.
 First printing. Edition of two plus two artist proofs. 8" x 10" image on 10" x 12" paper.
 
-Print number one of the first printing is available now. $100 includes free shipping via USPS Priority within the US. Please email me for shipping outside the US.
+Print number two of the first printing is available now. $100 includes free shipping via USPS Priority within the US. Please email me for shipping outside the US.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
