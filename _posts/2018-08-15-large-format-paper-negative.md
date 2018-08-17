@@ -11,7 +11,7 @@ I get a lot of questions about how this large format photography thing works. He
 
 ![The Century Universal in Pennsylvania farmland]( {{ "/assets/posts/2018-08-15-large-format-paper-negative/centuryInPa.jpg" | relative_url }})
 
-The photography that I do with these large format cameras is very similar to the way photography was at it's invention (minus the top hats.) Cameras that look like mine first appeared about 1850.
+The photography that I do with these large format cameras is very similar to the way photography was at it's invention (minus the corsets and top hats.) Cameras that look like mine first appeared about 1850.
 
 Compared to modern cameras, these are quite simple. You only need a light-tight box with a lens in one end and a film holder in the other. Large format cameras don't have autofocus or automatic metering. It's manual all the way.
 
