@@ -10,7 +10,15 @@ category: photograph
 ---
 Loading Dock, West Twelfth Street.
 
-Silver gelatin print on Arista Ultra MGFB, glossy. 8 by 10 inch image on 10&frac12; by 12&frac12; paper. Edition of X with X artist proof(s).
+Silver gelatin print on Arista Ultra MGFB, glossy. 8 by 10 inch image on 10&frac12; by 12&frac12; inch paper. First printing, edition of 1 with 1 artist proof.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="LRYS3PLEBAP8S">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="Please ignore thoe one-pixel gif." border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
 
 Here in Winston-Salem, the warehouses on West Twelfth Street provide a fantastic array of textures and rectangular shapes. I’ll probably make photographs there for years before I don’t have anything new to notice.
 
