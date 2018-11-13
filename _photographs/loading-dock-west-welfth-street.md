@@ -1,6 +1,6 @@
 ---
 layout: photograph
-date: 2018-10-31
+date: 2018-08-21
 title: Loading Dock, West Twelfth Street“
 photograph: westTwelfthStreetLoadingDock.jpg
 tags: 
