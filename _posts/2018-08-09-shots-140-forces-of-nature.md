@@ -14,7 +14,7 @@ Shots is a special magazine. It’s like nothing else on the newsstand. The publ
 
 The magazine has been around for over 30 years. It was originally a weirdly large, single-color, newsprint magazine. Dan Price, the founding publisher, published it out of his house, which was actually a tipi. Dan would publish the photos along with whatever envelope they arrived in so you could contact the photographer if you wanted to. This was all pre-internet, you see. A much younger me used to look at the issues on magazine rack at Tower Books on South Street in Philadelphia. I didn’t have a lot of money at the time, but I did manage to collect a small stack of issues.
 
-This older me is so honored to be on the cover. Thank you to publisher [Douglas Beasley](http://douglasbeasley.com/) and editor Elizabeth Flinsch for putting me in my favorite photography magazine.
+This older me is so honored to be on the cover. Thank you to publisher [Douglas Beasley](https://douglasbeasley.com/) and editor Elizabeth Flinsch for putting me in my favorite photography magazine.
 
 And while you’re here, I’m going to recommend that you [subscribe to Shots](https://shotsmag.com/collections/subscriptions). A year (four issues) only costs 29 bucks. As a magazine that consistently publishes great black and white photographs, it’s totally worth it.
 
