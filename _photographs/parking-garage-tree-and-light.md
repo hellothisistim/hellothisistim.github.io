@@ -10,7 +10,7 @@ category: photograph
 ---
 Parking Garage, Tree, and Light
 
-First printing. Edition of ??? with ??? artist proof. Glossy, silver gelatin fiber-based paper. 4 by 5 inch image on ??? by ??? inch paper. Selenium toned for longevity.
+First printing. Edition of 2 with no artist proof. Glossy, silver gelatin fiber-based paper. 4 by 5 inch image on 6 by 7 inch paper. Selenium toned for longevity.
 
 Print number one of the first printing is available now. $50 includes free shipping via USPS Priority within the US. Please email me for shipping outside the US.
 
