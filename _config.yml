@@ -48,7 +48,7 @@ markdown: kramdown
 liquid:
   error_mode: strict
 #theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
