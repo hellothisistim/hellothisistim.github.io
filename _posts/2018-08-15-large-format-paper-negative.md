@@ -17,7 +17,7 @@ Compared to modern cameras, these are quite simple. You only need a light-tight 
 
 Unlike roll-film cameras or today's digital cameras that can take many pictures between loading films (or changing cards), large format cameras shoot one piece of film at a time. A new piece of film must be put in the camera for every exposure. 
 
-The camera (pictured above) that I used to make [Twin Arches, 12 November 2016](http:hellothisistim.com/photographs/twin-arches) is a [Century Universal 8x10](http://www.largeformatphotography.info/century/century_universal_8x10.html). It's a pre-WWII camera, probably manufactured sometime between 1926 and the start of the war. This is the same camera model that Ansel Adams and Edward Weston used in the '30s. It makes a negative that is 8 inches by 10 inches. 
+The camera (pictured above) that I used to make [Twin Arches, 12 November 2016](http:hellothisistim.com/photographs/twin-arches) is a [Century Universal 8x10](https://www.largeformatphotography.info/century/century_universal_8x10.html). It's a pre-WWII camera, probably manufactured sometime between 1926 and the start of the war. This is the same camera model that Ansel Adams and Edward Weston used in the '30s. It makes a negative that is 8 inches by 10 inches. 
 
 This particular model is considered a "lightweight" camera. It only weighs about 10 pounds. Shooting with it feels like carrying around a delicate piece of antique furniture. I customized a backpack so I can carry it on my back,  and once I throw a sturdy tripod over my shoulder I'm ready to go. This is what qualifies as a "mobile" setup for large format photography.
 
