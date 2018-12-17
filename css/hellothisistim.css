@@ -296,6 +296,8 @@ nav a:hover {
     background: white;
     padding-top: 1em;
     padding-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 #project img, iframe, video {
     vertical-align: text-bottom;
@@ -306,14 +308,12 @@ nav a:hover {
 #project h2 {
     font-family: 'Roboto Slab', serif;
     line-height: 1.2em;
-/*    color: rgb(0, 179, 197);
-*/    margin-top: 0.5em;
-    margin-left: 1em;
+/*    color: rgb(0, 179, 197);*/   
+    margin-bottom: 0.5em;
+/*    margin-left: 1em;
     margin-right: 1em;
-}
+*/}
 #project div {
-    margin-left: 1em;
-    margin-right: 1em;
 
 }
 #project p, #project ul {
