@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<main>
+
+<section id="project" class="cv">
+
+	<h2>{{ page.title }}</h2>
+
+	<div>
+		{% if page.tags.size > 0 %}
+			<p>Tagged: 
+				{% for tag in page.tags %}
+				{% capture tag_name %}{{ tag }}{% endcapture %}
+		    	<a href="/tag/{{ tag_name | url_encode }}">{{ tag_name }}</a>
+				{% endfor %}
+			</p>
+		{% endif %}
+		{{ page.content }}
+	</div>
+
+
+</section>
+
+</main>
