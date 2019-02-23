@@ -134,7 +134,7 @@ nav > h2,
 #intro > h2,
 #projects > h2,
 #about > h2,
-#socialMedia > h2,
+#elsewhere > h2,
 #legal >h2 {
     position: absolute;
     text-indent: -9999px;
@@ -385,21 +385,21 @@ nav a:hover {
 
                                                 Social Media
 */
-#socialMedia {
+#elsewhere {
     background-color: rgb(0, 179, 197);
 }
-#socialMedia img {
+#elsewhere img {
     vertical-align: middle;
 }
-#socialMedia ul {
+#elsewhere ul {
     padding: 1em;
 }
-#socialMedia li {
+#elsewhere li {
     display: inline-block;
 }
 /* Using Scott Kellum method for replaceing text with images
 https://css-tricks.com/examples/ImageReplacement/#kellum */
-#socialMedia a#twitter {
+#elsewhere a#twitter {
     display: block;
     height: 32px;
     width: 32px;
@@ -408,10 +408,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a#twitter:hover {
+#elsewhere a#twitter:hover {
      background: rgb(255, 133, 31) url("../gfx/social/twitter-bg.png") no-repeat;
 }
-#socialMedia a#instagram {
+#elsewhere a#instagram {
     display: block;
     height: 32px;
     width: 32px;
@@ -420,10 +420,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a#instagram:hover {
+#elsewhere a#instagram:hover {
      background: rgb(255, 133, 31) url("../gfx/social/instagram-bg.png") no-repeat;
 }
-#socialMedia a#imdb {
+#elsewhere a#imdb {
     display: block;
     height: 32px;
     width: 32px;
@@ -432,10 +432,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a#imdb:hover {
+#elsewhere a#imdb:hover {
      background: rgb(255, 133, 31) url("../gfx/social/imdb-bg.png") no-repeat;
 }
-#socialMedia a#tumblr {
+#elsewhere a#tumblr {
     display: block;
     height: 32px;
     width: 32px;
@@ -444,10 +444,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a#tumblr:hover {
+#elsewhere a#tumblr:hover {
      background: rgb(255, 133, 31) url("../gfx/social/tumblr-bg.png") no-repeat;
 }
-#socialMedia a#linkedin {
+#elsewhere a#linkedin {
     display: block;
     height: 32px;
     width: 32px;
@@ -456,10 +456,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a#linkedin:hover {
+#elsewhere a#linkedin:hover {
      background: rgb(255, 133, 31) url("../gfx/social/linkedin-bg.png") no-repeat;
 }
-#socialMedia a#github {
+#elsewhere a#github {
     display: block;
     height: 32px;
     width: 32px;
@@ -468,10 +468,10 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a#github:hover {
+#elsewhere a#github:hover {
      background: rgb(255, 133, 31) url("../gfx/social/github-bg.png") no-repeat;
 }
-#socialMedia a#rss {
+#elsewhere a#rss {
     display: block;
     height: 32px;
     width: 32px;
@@ -480,7 +480,7 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     white-space: nowrap;
     overflow: hidden;
 }
-#socialMedia a#rss:hover {
+#elsewhere a#rss:hover {
      background: rgb(255, 133, 31) url("../gfx/social/rss-bg.png") no-repeat;
 }
 
@@ -729,61 +729,61 @@ section#about h3 {
 }
 
 
-#socialMedia {
+#elsewhere {
     position: fixed;
     top: 201px;
     left: 668px;
     background-color: white;
     padding: 0;
 }
-#socialMedia ul {
+#elsewhere ul {
     padding: 0;
 }
-#socialMedia li {
+#elsewhere li {
     display: inherit;
     margin-bottom: 0.5em;
 }
 /* These are set up in the mobile layout above. */
-#socialMedia a#twitter {
+#elsewhere a#twitter {
     background: rgb(0, 179, 197) url("../gfx/social/twitter-fg.png") no-repeat ;
 }
-#socialMedia a#twitter:hover {
+#elsewhere a#twitter:hover {
      background: rgb(255, 133, 31) url("../gfx/social/twitter-fg.png") no-repeat;
 }
-#socialMedia a#instagram {
+#elsewhere a#instagram {
     background: rgb(0, 179, 197) url("../gfx/social/instagram-fg.png") no-repeat ;
 }
-#socialMedia a#instagram:hover {
+#elsewhere a#instagram:hover {
      background: rgb(255, 133, 31) url("../gfx/social/instagram-fg.png") no-repeat;
 }
-#socialMedia a#imdb {
+#elsewhere a#imdb {
     background: rgb(0, 179, 197) url("../gfx/social/imdb-fg.png") no-repeat ;
 }
-#socialMedia a#tumblr:hover {
+#elsewhere a#tumblr:hover {
      background: rgb(255, 133, 31) url("../gfx/social/tumblr-fg.png") no-repeat;
 }
-#socialMedia a#tumblr {
+#elsewhere a#tumblr {
     background: rgb(0, 179, 197) url("../gfx/social/tumblr-fg.png") no-repeat ;
 }
-#socialMedia a#imdb:hover {
+#elsewhere a#imdb:hover {
      background: rgb(255, 133, 31) url("../gfx/social/imdb-fg.png") no-repeat;
 }
-#socialMedia a#linkedin {
+#elsewhere a#linkedin {
     background: rgb(0, 179, 197) url("../gfx/social/linkedin-fg.png") no-repeat ;
 }
-#socialMedia a#linkedin:hover {
+#elsewhere a#linkedin:hover {
      background: rgb(255, 133, 31) url("../gfx/social/linkedin-fg.png") no-repeat;
 }
-#socialMedia a#github {
+#elsewhere a#github {
     background: rgb(0, 179, 197) url("../gfx/social/github-fg.png") no-repeat ;
 }
-#socialMedia a#github:hover {
+#elsewhere a#github:hover {
      background: rgb(255, 133, 31) url("../gfx/social/github-fg.png") no-repeat;
 }
-#socialMedia a#rss {
+#elsewhere a#rss {
     background: rgb(0, 179, 197) url("../gfx/social/rss-fg.png") no-repeat ;
 }
-#socialMedia a#rss:hover {
+#elsewhere a#rss:hover {
      background: rgb(255, 133, 31) url("../gfx/social/rss-fg.png") no-repeat;
 }
 
@@ -838,7 +838,7 @@ section#projects section {
 #project iframe {
     height: 640px;
 }
-#socialMedia {
+#elsewhere {
     left: 1156px;
 }
 
@@ -867,7 +867,7 @@ section#projects {
     column-gap: 40px;
 }
 
-#socialMedia {
+#elsewhere {
     left: 1644px;
 }
 
