@@ -20,6 +20,7 @@ Print number one is available now. $100 includes free shipping via USPS Priority
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 </form>
 
+It was a beautiful June day, late afternoon. The sun was starting to sink, but in no danger of hitting the horizon any time soon. The kind of slow evening time that we get in the summer. Feeling doubly beautiful because  I got off work early and happened to have the 8x10 camera in the trunk already.
 
 ![Recto.](/assets/photographs/{{ page.path | split: "/" | last | split: "." | first }}/coldWarehouse_rectoOnTable.jpg)
 Recto
