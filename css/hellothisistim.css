@@ -415,13 +415,13 @@ https://css-tricks.com/examples/ImageReplacement/#kellum */
     display: block;
     height: 32px;
     width: 32px;
-    background: rgb(0, 179, 197) url("../gfx/social/instagram-bg.png") no-repeat ;
+    background: rgb(0, 179, 197) url("../gfx/social/inst-bg.png") no-repeat ;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
 }
 #elsewhere a#instagram:hover {
-     background: rgb(255, 133, 31) url("../gfx/social/instagram-bg.png") no-repeat;
+     background: rgb(255, 133, 31) url("../gfx/social/inst-bg.png") no-repeat;
 }
 #elsewhere a#imdb {
     display: block;
@@ -751,10 +751,10 @@ section#about h3 {
      background: rgb(255, 133, 31) url("../gfx/social/twitter-fg.png") no-repeat;
 }
 #elsewhere a#instagram {
-    background: rgb(0, 179, 197) url("../gfx/social/instagram-fg.png") no-repeat ;
+    background: rgb(0, 179, 197) url("../gfx/social/inst-fg.png") no-repeat ;
 }
 #elsewhere a#instagram:hover {
-     background: rgb(255, 133, 31) url("../gfx/social/instagram-fg.png") no-repeat;
+     background: rgb(255, 133, 31) url("../gfx/social/inst-fg.png") no-repeat;
 }
 #elsewhere a#imdb {
     background: rgb(0, 179, 197) url("../gfx/social/imdb-fg.png") no-repeat ;
