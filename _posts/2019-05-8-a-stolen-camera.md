@@ -11,7 +11,7 @@ category: blog
 {%- assign page_name = page.path | split: "/" | last | split: "." | first  -%}
 {%- assign media_location = "/assets/" | append: page.collection | append: "/" | append: page_name | append: "/" -%}
 
-The camera I learned to make photographs with was not mine. It belonged to my [dad](http://bowco.com/). And it got stolen from my apartment---along with a nice collection of his lenses--—two weeks after I moved to Philly. That hurt. It was a sweet, silver SRT-101. Dad had bought it around the time I was born and he always brought it with him. I got this camera as a replacement.
+The camera I learned to make photographs with was not mine. It belonged to my [dad](http://bowco.com/). And it got stolen from my apartment---along with a nice collection of his lenses---two weeks after I moved to Philly. That hurt. It was a sweet, silver SRT-101. Dad had bought it around the time I was born and he always brought it with him. I got this camera as a replacement.
 
 ![Minolta XD11 35mm film camera]( {{ media_location | append: "minolta_xd11.jpg" | relative_url}})
 
