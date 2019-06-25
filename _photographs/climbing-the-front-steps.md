@@ -13,4 +13,4 @@ Climbing the Front Steps
 
 Digital photograph from a paper negative. Size varies.
 
-We lived in this house for just a year and a half. It has a long stairway that goes down to the sidewalk and a bright red door. There was something about climbing all those steps that made coming home special.
+My family and I lived in this house for just a year and a half. It has a long stairway that goes down to the sidewalk and a bright red door. There was something about climbing all those steps that made coming home special.
