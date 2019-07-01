@@ -13,7 +13,7 @@ category: blog
 
 ![Four-by-five inch and eight-by-ten inch film holders]( {{ media_location | append: "film_holders.jpg" | relative_url}})
 
-These are film holders. We large format photographers don’t get to use roll film and get lots of exposures before needing to reload. We put our film in the camera one sheet at a time using these big, beautiful tools.
+These are film holders. We large format photographers don’t get to use roll film and blast through lots of exposures before reloading. We put our film in the camera one sheet at a time using these big, beautiful tools.
 
 On the left is a 4-by-5 holder. And on the right is an 8-by-10. Those numbers are inches, by the way. Each holder has two sides, so it can carry two sheets of film. You can tell these are unloaded because the dark slide has the dark side facing out and there’s no label that notes what type of film is loaded. 
 
