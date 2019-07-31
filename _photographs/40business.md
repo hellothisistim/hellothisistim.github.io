@@ -19,9 +19,4 @@ It usually takes an hour or so to expose six sheets of film. Then I’m back hom
 
 This is 40 Business.
 
-XXX First printing. Edition of 2 with 1 artist proof. Glossy, silver gelatin fiber-based paper. 8 by 10 inch image on 11 by 14 inch paper. Selenium toned for longevity.
-
-XXX Print number one of the first printing is available now. $100 includes free shipping via USPS Priority within the US. Please email me for shipping outside the US.
-
-<form ></form>
 
