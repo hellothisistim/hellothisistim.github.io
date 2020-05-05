@@ -6,7 +6,7 @@ tags:
 category: blog
 ---
 
-Today I'm looking at images from [The Mobile Darkroom](https://www.themobiledarkroom.ca), a project by Shane Arsenault and Natalia Barberis. They're shooting [Harman Direct Positive](https://www.ilfordphoto.com/harman-direct-positive-paper-sheets), a photograpic paper that produces a positive image directly without needing a negative, in a 16x20 view camera. 
+Today I'm looking at images from The Mobile Darkroom, a project by Shane Arsenault and Natalia Barberis. They're shooting [Harman Direct Positive](https://www.ilfordphoto.com/harman-direct-positive-paper-sheets), a photograpic paper that produces a positive image directly without needing a negative, in a 16x20 view camera. (Their site is down currently, it was at https://www.themobiledarkroom.ca).
 
 ![The Mobile Darkroom web site]( {{ "/assets/posts/2018-02-08-perfect-scene-reproduction/theMobileDarkroom.png" | relative_url }})
 
