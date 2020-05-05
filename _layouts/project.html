@@ -26,7 +26,7 @@ layout: default
 	{% endfor %}
 
 	{% for youtube in page.youtube-vids %}
-		<iframe width={{ youtube.width}} height={{ youtube.height}} src={{ youtube.src}} {% if youtube.allowfullscreen %} allowfullscreen {% endif %}></iframe>
+		<iframe width="{{ youtube.width}}" height="{{ youtube.height}}" src="{{ youtube.src}}" {% if youtube.allowfullscreen %} allowfullscreen {% endif %}></iframe>
 	{% endfor %}
 
 	<h2 itemprop="name">{{ page.title }}</h2>
