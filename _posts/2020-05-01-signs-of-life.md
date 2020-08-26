@@ -13,7 +13,14 @@ Signs of Life has the heart of a zine and the jacket of a library book. Here, I 
 
 Signs of Life is a 6 by 9 inch linen-wrapped hardbound book containing 72 black and white images. It is printed in one pass of black ink on 148 pages of 60-pound cream paper. The cover is grey and the title and author are stamped in white on the spine. Each copy is signed and numbered on the title page.
 
-Preorders are closed. Stay tuned for the release information.
+Want a copy? Great! It’s $35, including shipping in the US. Click this button.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="U682D9BAGBXJ6">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="This gif is used by PayPal." border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 
 ![Signs of Life photograph, Inspection Due Now](/assets/posts/{{ page.path | split: "/" | last | split: "." | first }}/signsOfLife_inspectionDueNow.jpg)
 
