@@ -13,7 +13,9 @@ Signs of Life has the heart of a zine and the jacket of a library book. Here, I 
 
 Signs of Life is a 6 by 9 inch linen-wrapped hardbound book containing 72 black and white images. It is printed in one pass of black ink on 148 pages of 60-pound cream paper. The cover is grey and the title and author are stamped in white on the spine. Each copy is signed and numbered on the title page.
 
-Want a copy? Great! It’s $35, including shipping in the US. Click this button. If you are not located in the US, please email me to get a shipping quote first.
+Want a copy? Great! It’s $35, including shipping in the US. Click the button below. 
+
+\*If you are not located in the US, please [email me](mailto:tim@hellothisistim.com) to get a shipping quote first.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
